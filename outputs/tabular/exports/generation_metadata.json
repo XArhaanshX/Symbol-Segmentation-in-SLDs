@@ -1,0 +1,4002 @@
+{
+  "SLD1_T_0.150_000": {
+    "dimensions": [
+      1521,
+      368
+    ],
+    "generation_time": 0.02600693702697754,
+    "memory_consumption": 2238912,
+    "local_minima_count": 672,
+    "file_size": 2239040
+  },
+  "SLD1_T_0.150_090": {
+    "dimensions": [
+      1530,
+      359
+    ],
+    "generation_time": 0.01551961898803711,
+    "memory_consumption": 2197080,
+    "local_minima_count": 521,
+    "file_size": 2197208
+  },
+  "SLD1_T_0.150_180": {
+    "dimensions": [
+      1521,
+      368
+    ],
+    "generation_time": 0.015345573425292969,
+    "memory_consumption": 2238912,
+    "local_minima_count": 431,
+    "file_size": 2239040
+  },
+  "SLD1_T_0.150_270": {
+    "dimensions": [
+      1530,
+      359
+    ],
+    "generation_time": 0.014737129211425781,
+    "memory_consumption": 2197080,
+    "local_minima_count": 424,
+    "file_size": 2197208
+  },
+  "SLD1_T_0.178_000": {
+    "dimensions": [
+      1516,
+      365
+    ],
+    "generation_time": 0.014753580093383789,
+    "memory_consumption": 2213360,
+    "local_minima_count": 426,
+    "file_size": 2213488
+  },
+  "SLD1_T_0.178_090": {
+    "dimensions": [
+      1527,
+      354
+    ],
+    "generation_time": 0.01486515998840332,
+    "memory_consumption": 2162232,
+    "local_minima_count": 415,
+    "file_size": 2162360
+  },
+  "SLD1_T_0.178_180": {
+    "dimensions": [
+      1516,
+      365
+    ],
+    "generation_time": 0.015043020248413086,
+    "memory_consumption": 2213360,
+    "local_minima_count": 324,
+    "file_size": 2213488
+  },
+  "SLD1_T_0.178_270": {
+    "dimensions": [
+      1527,
+      354
+    ],
+    "generation_time": 0.014406204223632812,
+    "memory_consumption": 2162232,
+    "local_minima_count": 356,
+    "file_size": 2162360
+  },
+  "SLD1_T_0.206_000": {
+    "dimensions": [
+      1512,
+      362
+    ],
+    "generation_time": 0.015057086944580078,
+    "memory_consumption": 2189376,
+    "local_minima_count": 550,
+    "file_size": 2189504
+  },
+  "SLD1_T_0.206_090": {
+    "dimensions": [
+      1524,
+      350
+    ],
+    "generation_time": 0.015521049499511719,
+    "memory_consumption": 2133600,
+    "local_minima_count": 347,
+    "file_size": 2133728
+  },
+  "SLD1_T_0.206_180": {
+    "dimensions": [
+      1512,
+      362
+    ],
+    "generation_time": 0.015787839889526367,
+    "memory_consumption": 2189376,
+    "local_minima_count": 241,
+    "file_size": 2189504
+  },
+  "SLD1_T_0.206_270": {
+    "dimensions": [
+      1524,
+      350
+    ],
+    "generation_time": 0.014595508575439453,
+    "memory_consumption": 2133600,
+    "local_minima_count": 278,
+    "file_size": 2133728
+  },
+  "SLD1_T_0.233_000": {
+    "dimensions": [
+      1507,
+      359
+    ],
+    "generation_time": 0.01673579216003418,
+    "memory_consumption": 2164052,
+    "local_minima_count": 506,
+    "file_size": 2164180
+  },
+  "SLD1_T_0.233_090": {
+    "dimensions": [
+      1521,
+      345
+    ],
+    "generation_time": 0.014717817306518555,
+    "memory_consumption": 2098980,
+    "local_minima_count": 213,
+    "file_size": 2099108
+  },
+  "SLD1_T_0.233_180": {
+    "dimensions": [
+      1507,
+      359
+    ],
+    "generation_time": 0.015570640563964844,
+    "memory_consumption": 2164052,
+    "local_minima_count": 210,
+    "file_size": 2164180
+  },
+  "SLD1_T_0.233_270": {
+    "dimensions": [
+      1521,
+      345
+    ],
+    "generation_time": 0.014090299606323242,
+    "memory_consumption": 2098980,
+    "local_minima_count": 226,
+    "file_size": 2099108
+  },
+  "SLD1_T_0.261_000": {
+    "dimensions": [
+      1503,
+      356
+    ],
+    "generation_time": 0.015731334686279297,
+    "memory_consumption": 2140272,
+    "local_minima_count": 267,
+    "file_size": 2140400
+  },
+  "SLD1_T_0.261_090": {
+    "dimensions": [
+      1518,
+      341
+    ],
+    "generation_time": 0.014187812805175781,
+    "memory_consumption": 2070552,
+    "local_minima_count": 191,
+    "file_size": 2070680
+  },
+  "SLD1_T_0.261_180": {
+    "dimensions": [
+      1503,
+      356
+    ],
+    "generation_time": 0.01575946807861328,
+    "memory_consumption": 2140272,
+    "local_minima_count": 165,
+    "file_size": 2140400
+  },
+  "SLD1_T_0.261_270": {
+    "dimensions": [
+      1518,
+      341
+    ],
+    "generation_time": 0.014989614486694336,
+    "memory_consumption": 2070552,
+    "local_minima_count": 175,
+    "file_size": 2070680
+  },
+  "SLD1_T_0.289_000": {
+    "dimensions": [
+      1498,
+      353
+    ],
+    "generation_time": 0.017060279846191406,
+    "memory_consumption": 2115176,
+    "local_minima_count": 203,
+    "file_size": 2115304
+  },
+  "SLD1_T_0.289_090": {
+    "dimensions": [
+      1515,
+      336
+    ],
+    "generation_time": 0.016254186630249023,
+    "memory_consumption": 2036160,
+    "local_minima_count": 164,
+    "file_size": 2036288
+  },
+  "SLD1_T_0.289_180": {
+    "dimensions": [
+      1498,
+      353
+    ],
+    "generation_time": 0.014594554901123047,
+    "memory_consumption": 2115176,
+    "local_minima_count": 136,
+    "file_size": 2115304
+  },
+  "SLD1_T_0.289_270": {
+    "dimensions": [
+      1515,
+      336
+    ],
+    "generation_time": 0.015501260757446289,
+    "memory_consumption": 2036160,
+    "local_minima_count": 201,
+    "file_size": 2036288
+  },
+  "SLD1_T_0.317_000": {
+    "dimensions": [
+      1494,
+      350
+    ],
+    "generation_time": 0.015594244003295898,
+    "memory_consumption": 2091600,
+    "local_minima_count": 166,
+    "file_size": 2091728
+  },
+  "SLD1_T_0.317_090": {
+    "dimensions": [
+      1512,
+      332
+    ],
+    "generation_time": 0.016193389892578125,
+    "memory_consumption": 2007936,
+    "local_minima_count": 164,
+    "file_size": 2008064
+  },
+  "SLD1_T_0.317_180": {
+    "dimensions": [
+      1494,
+      350
+    ],
+    "generation_time": 0.014699935913085938,
+    "memory_consumption": 2091600,
+    "local_minima_count": 105,
+    "file_size": 2091728
+  },
+  "SLD1_T_0.317_270": {
+    "dimensions": [
+      1512,
+      332
+    ],
+    "generation_time": 0.015706539154052734,
+    "memory_consumption": 2007936,
+    "local_minima_count": 126,
+    "file_size": 2008064
+  },
+  "SLD1_T_0.344_000": {
+    "dimensions": [
+      1490,
+      348
+    ],
+    "generation_time": 0.013765096664428711,
+    "memory_consumption": 2074080,
+    "local_minima_count": 131,
+    "file_size": 2074208
+  },
+  "SLD1_T_0.344_090": {
+    "dimensions": [
+      1510,
+      328
+    ],
+    "generation_time": 0.016960859298706055,
+    "memory_consumption": 1981120,
+    "local_minima_count": 116,
+    "file_size": 1981248
+  },
+  "SLD1_T_0.344_180": {
+    "dimensions": [
+      1490,
+      348
+    ],
+    "generation_time": 0.015231609344482422,
+    "memory_consumption": 2074080,
+    "local_minima_count": 87,
+    "file_size": 2074208
+  },
+  "SLD1_T_0.344_270": {
+    "dimensions": [
+      1510,
+      328
+    ],
+    "generation_time": 0.016991615295410156,
+    "memory_consumption": 1981120,
+    "local_minima_count": 102,
+    "file_size": 1981248
+  },
+  "SLD1_T_0.372_000": {
+    "dimensions": [
+      1485,
+      345
+    ],
+    "generation_time": 0.015549182891845703,
+    "memory_consumption": 2049300,
+    "local_minima_count": 108,
+    "file_size": 2049428
+  },
+  "SLD1_T_0.372_090": {
+    "dimensions": [
+      1507,
+      323
+    ],
+    "generation_time": 0.019591569900512695,
+    "memory_consumption": 1947044,
+    "local_minima_count": 99,
+    "file_size": 1947172
+  },
+  "SLD1_T_0.372_180": {
+    "dimensions": [
+      1485,
+      345
+    ],
+    "generation_time": 0.016508102416992188,
+    "memory_consumption": 2049300,
+    "local_minima_count": 71,
+    "file_size": 2049428
+  },
+  "SLD1_T_0.372_270": {
+    "dimensions": [
+      1507,
+      323
+    ],
+    "generation_time": 0.02034902572631836,
+    "memory_consumption": 1947044,
+    "local_minima_count": 81,
+    "file_size": 1947172
+  },
+  "SLD1_T_0.400_000": {
+    "dimensions": [
+      1481,
+      342
+    ],
+    "generation_time": 0.016018390655517578,
+    "memory_consumption": 2026008,
+    "local_minima_count": 102,
+    "file_size": 2026136
+  },
+  "SLD1_T_0.400_090": {
+    "dimensions": [
+      1504,
+      319
+    ],
+    "generation_time": 0.018926382064819336,
+    "memory_consumption": 1919104,
+    "local_minima_count": 69,
+    "file_size": 1919232
+  },
+  "SLD1_T_0.400_180": {
+    "dimensions": [
+      1481,
+      342
+    ],
+    "generation_time": 0.015967607498168945,
+    "memory_consumption": 2026008,
+    "local_minima_count": 59,
+    "file_size": 2026136
+  },
+  "SLD1_T_0.400_270": {
+    "dimensions": [
+      1504,
+      319
+    ],
+    "generation_time": 0.01915574073791504,
+    "memory_consumption": 1919104,
+    "local_minima_count": 88,
+    "file_size": 1919232
+  },
+  "SLD10_T_0.150_000": {
+    "dimensions": [
+      1558,
+      901
+    ],
+    "generation_time": 0.032048940658569336,
+    "memory_consumption": 5615032,
+    "local_minima_count": 2762,
+    "file_size": 5615160
+  },
+  "SLD10_T_0.150_090": {
+    "dimensions": [
+      1567,
+      892
+    ],
+    "generation_time": 0.03267550468444824,
+    "memory_consumption": 5591056,
+    "local_minima_count": 2218,
+    "file_size": 5591184
+  },
+  "SLD10_T_0.150_180": {
+    "dimensions": [
+      1558,
+      901
+    ],
+    "generation_time": 0.033197641372680664,
+    "memory_consumption": 5615032,
+    "local_minima_count": 1833,
+    "file_size": 5615160
+  },
+  "SLD10_T_0.150_270": {
+    "dimensions": [
+      1567,
+      892
+    ],
+    "generation_time": 0.03305983543395996,
+    "memory_consumption": 5591056,
+    "local_minima_count": 2020,
+    "file_size": 5591184
+  },
+  "SLD10_T_0.178_000": {
+    "dimensions": [
+      1553,
+      898
+    ],
+    "generation_time": 0.032387495040893555,
+    "memory_consumption": 5578376,
+    "local_minima_count": 1875,
+    "file_size": 5578504
+  },
+  "SLD10_T_0.178_090": {
+    "dimensions": [
+      1564,
+      887
+    ],
+    "generation_time": 0.035977840423583984,
+    "memory_consumption": 5549072,
+    "local_minima_count": 3022,
+    "file_size": 5549200
+  },
+  "SLD10_T_0.178_180": {
+    "dimensions": [
+      1553,
+      898
+    ],
+    "generation_time": 0.034567832946777344,
+    "memory_consumption": 5578376,
+    "local_minima_count": 1697,
+    "file_size": 5578504
+  },
+  "SLD10_T_0.178_270": {
+    "dimensions": [
+      1564,
+      887
+    ],
+    "generation_time": 0.03674054145812988,
+    "memory_consumption": 5549072,
+    "local_minima_count": 1869,
+    "file_size": 5549200
+  },
+  "SLD10_T_0.206_000": {
+    "dimensions": [
+      1549,
+      895
+    ],
+    "generation_time": 0.03601574897766113,
+    "memory_consumption": 5545420,
+    "local_minima_count": 2497,
+    "file_size": 5545548
+  },
+  "SLD10_T_0.206_090": {
+    "dimensions": [
+      1561,
+      883
+    ],
+    "generation_time": 0.03757143020629883,
+    "memory_consumption": 5513452,
+    "local_minima_count": 1816,
+    "file_size": 5513580
+  },
+  "SLD10_T_0.206_180": {
+    "dimensions": [
+      1549,
+      895
+    ],
+    "generation_time": 0.03754544258117676,
+    "memory_consumption": 5545420,
+    "local_minima_count": 1580,
+    "file_size": 5545548
+  },
+  "SLD10_T_0.206_270": {
+    "dimensions": [
+      1561,
+      883
+    ],
+    "generation_time": 0.03841876983642578,
+    "memory_consumption": 5513452,
+    "local_minima_count": 1761,
+    "file_size": 5513580
+  },
+  "SLD10_T_0.233_000": {
+    "dimensions": [
+      1544,
+      892
+    ],
+    "generation_time": 0.03800678253173828,
+    "memory_consumption": 5508992,
+    "local_minima_count": 2388,
+    "file_size": 5509120
+  },
+  "SLD10_T_0.233_090": {
+    "dimensions": [
+      1558,
+      878
+    ],
+    "generation_time": 0.03803396224975586,
+    "memory_consumption": 5471696,
+    "local_minima_count": 1491,
+    "file_size": 5471824
+  },
+  "SLD10_T_0.233_180": {
+    "dimensions": [
+      1544,
+      892
+    ],
+    "generation_time": 0.03761601448059082,
+    "memory_consumption": 5508992,
+    "local_minima_count": 1468,
+    "file_size": 5509120
+  },
+  "SLD10_T_0.233_270": {
+    "dimensions": [
+      1558,
+      878
+    ],
+    "generation_time": 0.0363316535949707,
+    "memory_consumption": 5471696,
+    "local_minima_count": 1605,
+    "file_size": 5471824
+  },
+  "SLD10_T_0.261_000": {
+    "dimensions": [
+      1540,
+      889
+    ],
+    "generation_time": 0.03524208068847656,
+    "memory_consumption": 5476240,
+    "local_minima_count": 1495,
+    "file_size": 5476368
+  },
+  "SLD10_T_0.261_090": {
+    "dimensions": [
+      1555,
+      874
+    ],
+    "generation_time": 0.03542518615722656,
+    "memory_consumption": 5436280,
+    "local_minima_count": 1355,
+    "file_size": 5436408
+  },
+  "SLD10_T_0.261_180": {
+    "dimensions": [
+      1540,
+      889
+    ],
+    "generation_time": 0.03457069396972656,
+    "memory_consumption": 5476240,
+    "local_minima_count": 1399,
+    "file_size": 5476368
+  },
+  "SLD10_T_0.261_270": {
+    "dimensions": [
+      1555,
+      874
+    ],
+    "generation_time": 0.03677177429199219,
+    "memory_consumption": 5436280,
+    "local_minima_count": 1441,
+    "file_size": 5436408
+  },
+  "SLD10_T_0.289_000": {
+    "dimensions": [
+      1535,
+      886
+    ],
+    "generation_time": 0.03789377212524414,
+    "memory_consumption": 5440040,
+    "local_minima_count": 1424,
+    "file_size": 5440168
+  },
+  "SLD10_T_0.289_090": {
+    "dimensions": [
+      1552,
+      869
+    ],
+    "generation_time": 0.03887224197387695,
+    "memory_consumption": 5394752,
+    "local_minima_count": 1261,
+    "file_size": 5394880
+  },
+  "SLD10_T_0.289_180": {
+    "dimensions": [
+      1535,
+      886
+    ],
+    "generation_time": 0.0386042594909668,
+    "memory_consumption": 5440040,
+    "local_minima_count": 1345,
+    "file_size": 5440168
+  },
+  "SLD10_T_0.289_270": {
+    "dimensions": [
+      1552,
+      869
+    ],
+    "generation_time": 0.04031729698181152,
+    "memory_consumption": 5394752,
+    "local_minima_count": 2029,
+    "file_size": 5394880
+  },
+  "SLD10_T_0.317_000": {
+    "dimensions": [
+      1531,
+      883
+    ],
+    "generation_time": 0.03738141059875488,
+    "memory_consumption": 5407492,
+    "local_minima_count": 1231,
+    "file_size": 5407620
+  },
+  "SLD10_T_0.317_090": {
+    "dimensions": [
+      1549,
+      865
+    ],
+    "generation_time": 0.03894472122192383,
+    "memory_consumption": 5359540,
+    "local_minima_count": 1169,
+    "file_size": 5359668
+  },
+  "SLD10_T_0.317_180": {
+    "dimensions": [
+      1531,
+      883
+    ],
+    "generation_time": 0.03641939163208008,
+    "memory_consumption": 5407492,
+    "local_minima_count": 1306,
+    "file_size": 5407620
+  },
+  "SLD10_T_0.317_270": {
+    "dimensions": [
+      1549,
+      865
+    ],
+    "generation_time": 0.039597272872924805,
+    "memory_consumption": 5359540,
+    "local_minima_count": 1226,
+    "file_size": 5359668
+  },
+  "SLD10_T_0.344_000": {
+    "dimensions": [
+      1527,
+      881
+    ],
+    "generation_time": 0.03694009780883789,
+    "memory_consumption": 5381148,
+    "local_minima_count": 1155,
+    "file_size": 5381276
+  },
+  "SLD10_T_0.344_090": {
+    "dimensions": [
+      1547,
+      861
+    ],
+    "generation_time": 0.042478322982788086,
+    "memory_consumption": 5327868,
+    "local_minima_count": 1094,
+    "file_size": 5327996
+  },
+  "SLD10_T_0.344_180": {
+    "dimensions": [
+      1527,
+      881
+    ],
+    "generation_time": 0.048482418060302734,
+    "memory_consumption": 5381148,
+    "local_minima_count": 1220,
+    "file_size": 5381276
+  },
+  "SLD10_T_0.344_270": {
+    "dimensions": [
+      1547,
+      861
+    ],
+    "generation_time": 0.04785299301147461,
+    "memory_consumption": 5327868,
+    "local_minima_count": 1147,
+    "file_size": 5327996
+  },
+  "SLD10_T_0.372_000": {
+    "dimensions": [
+      1522,
+      878
+    ],
+    "generation_time": 0.037590980529785156,
+    "memory_consumption": 5345264,
+    "local_minima_count": 1118,
+    "file_size": 5345392
+  },
+  "SLD10_T_0.372_090": {
+    "dimensions": [
+      1544,
+      856
+    ],
+    "generation_time": 0.04381203651428223,
+    "memory_consumption": 5286656,
+    "local_minima_count": 1010,
+    "file_size": 5286784
+  },
+  "SLD10_T_0.372_180": {
+    "dimensions": [
+      1522,
+      878
+    ],
+    "generation_time": 0.03793001174926758,
+    "memory_consumption": 5345264,
+    "local_minima_count": 1186,
+    "file_size": 5345392
+  },
+  "SLD10_T_0.372_270": {
+    "dimensions": [
+      1544,
+      856
+    ],
+    "generation_time": 0.04331541061401367,
+    "memory_consumption": 5286656,
+    "local_minima_count": 1093,
+    "file_size": 5286784
+  },
+  "SLD10_T_0.400_000": {
+    "dimensions": [
+      1518,
+      875
+    ],
+    "generation_time": 0.0375669002532959,
+    "memory_consumption": 5313000,
+    "local_minima_count": 1054,
+    "file_size": 5313128
+  },
+  "SLD10_T_0.400_090": {
+    "dimensions": [
+      1541,
+      852
+    ],
+    "generation_time": 0.04140520095825195,
+    "memory_consumption": 5251728,
+    "local_minima_count": 965,
+    "file_size": 5251856
+  },
+  "SLD10_T_0.400_180": {
+    "dimensions": [
+      1518,
+      875
+    ],
+    "generation_time": 0.03929543495178223,
+    "memory_consumption": 5313000,
+    "local_minima_count": 1130,
+    "file_size": 5313128
+  },
+  "SLD10_T_0.400_270": {
+    "dimensions": [
+      1541,
+      852
+    ],
+    "generation_time": 0.04401707649230957,
+    "memory_consumption": 5251728,
+    "local_minima_count": 1311,
+    "file_size": 5251856
+  },
+  "SLD11_T_0.150_000": {
+    "dimensions": [
+      746,
+      684
+    ],
+    "generation_time": 0.014938592910766602,
+    "memory_consumption": 2041056,
+    "local_minima_count": 992,
+    "file_size": 2041184
+  },
+  "SLD11_T_0.150_090": {
+    "dimensions": [
+      755,
+      675
+    ],
+    "generation_time": 0.013458251953125,
+    "memory_consumption": 2038500,
+    "local_minima_count": 1164,
+    "file_size": 2038628
+  },
+  "SLD11_T_0.150_180": {
+    "dimensions": [
+      746,
+      684
+    ],
+    "generation_time": 0.013444662094116211,
+    "memory_consumption": 2041056,
+    "local_minima_count": 865,
+    "file_size": 2041184
+  },
+  "SLD11_T_0.150_270": {
+    "dimensions": [
+      755,
+      675
+    ],
+    "generation_time": 0.012959003448486328,
+    "memory_consumption": 2038500,
+    "local_minima_count": 763,
+    "file_size": 2038628
+  },
+  "SLD11_T_0.178_000": {
+    "dimensions": [
+      741,
+      681
+    ],
+    "generation_time": 0.012538671493530273,
+    "memory_consumption": 2018484,
+    "local_minima_count": 623,
+    "file_size": 2018612
+  },
+  "SLD11_T_0.178_090": {
+    "dimensions": [
+      752,
+      670
+    ],
+    "generation_time": 0.014490127563476562,
+    "memory_consumption": 2015360,
+    "local_minima_count": 810,
+    "file_size": 2015488
+  },
+  "SLD11_T_0.178_180": {
+    "dimensions": [
+      741,
+      681
+    ],
+    "generation_time": 0.012618064880371094,
+    "memory_consumption": 2018484,
+    "local_minima_count": 593,
+    "file_size": 2018612
+  },
+  "SLD11_T_0.178_270": {
+    "dimensions": [
+      752,
+      670
+    ],
+    "generation_time": 0.01575613021850586,
+    "memory_consumption": 2015360,
+    "local_minima_count": 593,
+    "file_size": 2015488
+  },
+  "SLD11_T_0.206_000": {
+    "dimensions": [
+      737,
+      678
+    ],
+    "generation_time": 0.01330113410949707,
+    "memory_consumption": 1998744,
+    "local_minima_count": 482,
+    "file_size": 1998872
+  },
+  "SLD11_T_0.206_090": {
+    "dimensions": [
+      749,
+      666
+    ],
+    "generation_time": 0.01454019546508789,
+    "memory_consumption": 1995336,
+    "local_minima_count": 839,
+    "file_size": 1995464
+  },
+  "SLD11_T_0.206_180": {
+    "dimensions": [
+      737,
+      678
+    ],
+    "generation_time": 0.013160467147827148,
+    "memory_consumption": 1998744,
+    "local_minima_count": 508,
+    "file_size": 1998872
+  },
+  "SLD11_T_0.206_270": {
+    "dimensions": [
+      749,
+      666
+    ],
+    "generation_time": 0.01482844352722168,
+    "memory_consumption": 1995336,
+    "local_minima_count": 451,
+    "file_size": 1995464
+  },
+  "SLD11_T_0.233_000": {
+    "dimensions": [
+      732,
+      675
+    ],
+    "generation_time": 0.012990474700927734,
+    "memory_consumption": 1976400,
+    "local_minima_count": 389,
+    "file_size": 1976528
+  },
+  "SLD11_T_0.233_090": {
+    "dimensions": [
+      746,
+      661
+    ],
+    "generation_time": 0.014732837677001953,
+    "memory_consumption": 1972424,
+    "local_minima_count": 529,
+    "file_size": 1972552
+  },
+  "SLD11_T_0.233_180": {
+    "dimensions": [
+      732,
+      675
+    ],
+    "generation_time": 0.012823820114135742,
+    "memory_consumption": 1976400,
+    "local_minima_count": 444,
+    "file_size": 1976528
+  },
+  "SLD11_T_0.233_270": {
+    "dimensions": [
+      746,
+      661
+    ],
+    "generation_time": 0.014943838119506836,
+    "memory_consumption": 1972424,
+    "local_minima_count": 365,
+    "file_size": 1972552
+  },
+  "SLD11_T_0.261_000": {
+    "dimensions": [
+      728,
+      672
+    ],
+    "generation_time": 0.015023231506347656,
+    "memory_consumption": 1956864,
+    "local_minima_count": 343,
+    "file_size": 1956992
+  },
+  "SLD11_T_0.261_090": {
+    "dimensions": [
+      743,
+      657
+    ],
+    "generation_time": 0.015065193176269531,
+    "memory_consumption": 1952604,
+    "local_minima_count": 466,
+    "file_size": 1952732
+  },
+  "SLD11_T_0.261_180": {
+    "dimensions": [
+      728,
+      672
+    ],
+    "generation_time": 0.014461994171142578,
+    "memory_consumption": 1956864,
+    "local_minima_count": 370,
+    "file_size": 1956992
+  },
+  "SLD11_T_0.261_270": {
+    "dimensions": [
+      743,
+      657
+    ],
+    "generation_time": 0.014744281768798828,
+    "memory_consumption": 1952604,
+    "local_minima_count": 337,
+    "file_size": 1952732
+  },
+  "SLD11_T_0.289_000": {
+    "dimensions": [
+      723,
+      669
+    ],
+    "generation_time": 0.015377044677734375,
+    "memory_consumption": 1934748,
+    "local_minima_count": 278,
+    "file_size": 1934876
+  },
+  "SLD11_T_0.289_090": {
+    "dimensions": [
+      740,
+      652
+    ],
+    "generation_time": 0.0154571533203125,
+    "memory_consumption": 1929920,
+    "local_minima_count": 396,
+    "file_size": 1930048
+  },
+  "SLD11_T_0.289_180": {
+    "dimensions": [
+      723,
+      669
+    ],
+    "generation_time": 0.014616727828979492,
+    "memory_consumption": 1934748,
+    "local_minima_count": 339,
+    "file_size": 1934876
+  },
+  "SLD11_T_0.289_270": {
+    "dimensions": [
+      740,
+      652
+    ],
+    "generation_time": 0.0159146785736084,
+    "memory_consumption": 1929920,
+    "local_minima_count": 283,
+    "file_size": 1930048
+  },
+  "SLD11_T_0.317_000": {
+    "dimensions": [
+      719,
+      666
+    ],
+    "generation_time": 0.015072107315063477,
+    "memory_consumption": 1915416,
+    "local_minima_count": 223,
+    "file_size": 1915544
+  },
+  "SLD11_T_0.317_090": {
+    "dimensions": [
+      737,
+      648
+    ],
+    "generation_time": 0.01452493667602539,
+    "memory_consumption": 1910304,
+    "local_minima_count": 434,
+    "file_size": 1910432
+  },
+  "SLD11_T_0.317_180": {
+    "dimensions": [
+      719,
+      666
+    ],
+    "generation_time": 0.015489578247070312,
+    "memory_consumption": 1915416,
+    "local_minima_count": 325,
+    "file_size": 1915544
+  },
+  "SLD11_T_0.317_270": {
+    "dimensions": [
+      737,
+      648
+    ],
+    "generation_time": 0.014473438262939453,
+    "memory_consumption": 1910304,
+    "local_minima_count": 241,
+    "file_size": 1910432
+  },
+  "SLD11_T_0.344_000": {
+    "dimensions": [
+      715,
+      664
+    ],
+    "generation_time": 0.013818502426147461,
+    "memory_consumption": 1899040,
+    "local_minima_count": 204,
+    "file_size": 1899168
+  },
+  "SLD11_T_0.344_090": {
+    "dimensions": [
+      735,
+      644
+    ],
+    "generation_time": 0.01512765884399414,
+    "memory_consumption": 1893360,
+    "local_minima_count": 314,
+    "file_size": 1893488
+  },
+  "SLD11_T_0.344_180": {
+    "dimensions": [
+      715,
+      664
+    ],
+    "generation_time": 0.013804912567138672,
+    "memory_consumption": 1899040,
+    "local_minima_count": 300,
+    "file_size": 1899168
+  },
+  "SLD11_T_0.344_270": {
+    "dimensions": [
+      735,
+      644
+    ],
+    "generation_time": 0.01544809341430664,
+    "memory_consumption": 1893360,
+    "local_minima_count": 167,
+    "file_size": 1893488
+  },
+  "SLD11_T_0.372_000": {
+    "dimensions": [
+      710,
+      661
+    ],
+    "generation_time": 0.014493942260742188,
+    "memory_consumption": 1877240,
+    "local_minima_count": 170,
+    "file_size": 1877368
+  },
+  "SLD11_T_0.372_090": {
+    "dimensions": [
+      732,
+      639
+    ],
+    "generation_time": 0.016504764556884766,
+    "memory_consumption": 1870992,
+    "local_minima_count": 232,
+    "file_size": 1871120
+  },
+  "SLD11_T_0.372_180": {
+    "dimensions": [
+      710,
+      661
+    ],
+    "generation_time": 0.014898538589477539,
+    "memory_consumption": 1877240,
+    "local_minima_count": 286,
+    "file_size": 1877368
+  },
+  "SLD11_T_0.372_270": {
+    "dimensions": [
+      732,
+      639
+    ],
+    "generation_time": 0.015888452529907227,
+    "memory_consumption": 1870992,
+    "local_minima_count": 125,
+    "file_size": 1871120
+  },
+  "SLD11_T_0.400_000": {
+    "dimensions": [
+      706,
+      658
+    ],
+    "generation_time": 0.014803409576416016,
+    "memory_consumption": 1858192,
+    "local_minima_count": 144,
+    "file_size": 1858320
+  },
+  "SLD11_T_0.400_090": {
+    "dimensions": [
+      729,
+      635
+    ],
+    "generation_time": 0.01690053939819336,
+    "memory_consumption": 1851660,
+    "local_minima_count": 222,
+    "file_size": 1851788
+  },
+  "SLD11_T_0.400_180": {
+    "dimensions": [
+      706,
+      658
+    ],
+    "generation_time": 0.014707088470458984,
+    "memory_consumption": 1858192,
+    "local_minima_count": 317,
+    "file_size": 1858320
+  },
+  "SLD11_T_0.400_270": {
+    "dimensions": [
+      729,
+      635
+    ],
+    "generation_time": 0.016071557998657227,
+    "memory_consumption": 1851660,
+    "local_minima_count": 101,
+    "file_size": 1851788
+  },
+  "SLD12_T_0.150_000": {
+    "dimensions": [
+      848,
+      98
+    ],
+    "generation_time": 0.0029952526092529297,
+    "memory_consumption": 332416,
+    "local_minima_count": 196,
+    "file_size": 332544
+  },
+  "SLD12_T_0.150_090": {
+    "dimensions": [
+      857,
+      89
+    ],
+    "generation_time": 0.0023834705352783203,
+    "memory_consumption": 305092,
+    "local_minima_count": 114,
+    "file_size": 305220
+  },
+  "SLD12_T_0.150_180": {
+    "dimensions": [
+      848,
+      98
+    ],
+    "generation_time": 0.002093076705932617,
+    "memory_consumption": 332416,
+    "local_minima_count": 122,
+    "file_size": 332544
+  },
+  "SLD12_T_0.150_270": {
+    "dimensions": [
+      857,
+      89
+    ],
+    "generation_time": 0.0024261474609375,
+    "memory_consumption": 305092,
+    "local_minima_count": 106,
+    "file_size": 305220
+  },
+  "SLD12_T_0.178_000": {
+    "dimensions": [
+      843,
+      95
+    ],
+    "generation_time": 0.0022127628326416016,
+    "memory_consumption": 320340,
+    "local_minima_count": 97,
+    "file_size": 320468
+  },
+  "SLD12_T_0.178_090": {
+    "dimensions": [
+      854,
+      84
+    ],
+    "generation_time": 0.0024406909942626953,
+    "memory_consumption": 286944,
+    "local_minima_count": 102,
+    "file_size": 287072
+  },
+  "SLD12_T_0.178_180": {
+    "dimensions": [
+      843,
+      95
+    ],
+    "generation_time": 0.002239227294921875,
+    "memory_consumption": 320340,
+    "local_minima_count": 105,
+    "file_size": 320468
+  },
+  "SLD12_T_0.178_270": {
+    "dimensions": [
+      854,
+      84
+    ],
+    "generation_time": 0.002138376235961914,
+    "memory_consumption": 286944,
+    "local_minima_count": 82,
+    "file_size": 287072
+  },
+  "SLD12_T_0.206_000": {
+    "dimensions": [
+      839,
+      92
+    ],
+    "generation_time": 0.0023241043090820312,
+    "memory_consumption": 308752,
+    "local_minima_count": 75,
+    "file_size": 308880
+  },
+  "SLD12_T_0.206_090": {
+    "dimensions": [
+      851,
+      80
+    ],
+    "generation_time": 0.0022449493408203125,
+    "memory_consumption": 272320,
+    "local_minima_count": 60,
+    "file_size": 272448
+  },
+  "SLD12_T_0.206_180": {
+    "dimensions": [
+      839,
+      92
+    ],
+    "generation_time": 0.002328634262084961,
+    "memory_consumption": 308752,
+    "local_minima_count": 79,
+    "file_size": 308880
+  },
+  "SLD12_T_0.206_270": {
+    "dimensions": [
+      851,
+      80
+    ],
+    "generation_time": 0.0021448135375976562,
+    "memory_consumption": 272320,
+    "local_minima_count": 61,
+    "file_size": 272448
+  },
+  "SLD12_T_0.233_000": {
+    "dimensions": [
+      834,
+      89
+    ],
+    "generation_time": 0.0021512508392333984,
+    "memory_consumption": 296904,
+    "local_minima_count": 61,
+    "file_size": 297032
+  },
+  "SLD12_T_0.233_090": {
+    "dimensions": [
+      848,
+      75
+    ],
+    "generation_time": 0.002398967742919922,
+    "memory_consumption": 254400,
+    "local_minima_count": 39,
+    "file_size": 254528
+  },
+  "SLD12_T_0.233_180": {
+    "dimensions": [
+      834,
+      89
+    ],
+    "generation_time": 0.002422809600830078,
+    "memory_consumption": 296904,
+    "local_minima_count": 59,
+    "file_size": 297032
+  },
+  "SLD12_T_0.233_270": {
+    "dimensions": [
+      848,
+      75
+    ],
+    "generation_time": 0.002315044403076172,
+    "memory_consumption": 254400,
+    "local_minima_count": 44,
+    "file_size": 254528
+  },
+  "SLD12_T_0.261_000": {
+    "dimensions": [
+      830,
+      86
+    ],
+    "generation_time": 0.002496957778930664,
+    "memory_consumption": 285520,
+    "local_minima_count": 55,
+    "file_size": 285648
+  },
+  "SLD12_T_0.261_090": {
+    "dimensions": [
+      845,
+      71
+    ],
+    "generation_time": 0.002257823944091797,
+    "memory_consumption": 239980,
+    "local_minima_count": 25,
+    "file_size": 240108
+  },
+  "SLD12_T_0.261_180": {
+    "dimensions": [
+      830,
+      86
+    ],
+    "generation_time": 0.0027589797973632812,
+    "memory_consumption": 285520,
+    "local_minima_count": 45,
+    "file_size": 285648
+  },
+  "SLD12_T_0.261_270": {
+    "dimensions": [
+      845,
+      71
+    ],
+    "generation_time": 0.002319812774658203,
+    "memory_consumption": 239980,
+    "local_minima_count": 29,
+    "file_size": 240108
+  },
+  "SLD12_T_0.289_000": {
+    "dimensions": [
+      825,
+      83
+    ],
+    "generation_time": 0.0021066665649414062,
+    "memory_consumption": 273900,
+    "local_minima_count": 51,
+    "file_size": 274028
+  },
+  "SLD12_T_0.289_090": {
+    "dimensions": [
+      842,
+      66
+    ],
+    "generation_time": 0.002171039581298828,
+    "memory_consumption": 222288,
+    "local_minima_count": 23,
+    "file_size": 222416
+  },
+  "SLD12_T_0.289_180": {
+    "dimensions": [
+      825,
+      83
+    ],
+    "generation_time": 0.002241373062133789,
+    "memory_consumption": 273900,
+    "local_minima_count": 38,
+    "file_size": 274028
+  },
+  "SLD12_T_0.289_270": {
+    "dimensions": [
+      842,
+      66
+    ],
+    "generation_time": 0.0025551319122314453,
+    "memory_consumption": 222288,
+    "local_minima_count": 25,
+    "file_size": 222416
+  },
+  "SLD12_T_0.317_000": {
+    "dimensions": [
+      821,
+      80
+    ],
+    "generation_time": 0.002269744873046875,
+    "memory_consumption": 262720,
+    "local_minima_count": 43,
+    "file_size": 262848
+  },
+  "SLD12_T_0.317_090": {
+    "dimensions": [
+      839,
+      62
+    ],
+    "generation_time": 0.0021898746490478516,
+    "memory_consumption": 208072,
+    "local_minima_count": 21,
+    "file_size": 208200
+  },
+  "SLD12_T_0.317_180": {
+    "dimensions": [
+      821,
+      80
+    ],
+    "generation_time": 0.0021219253540039062,
+    "memory_consumption": 262720,
+    "local_minima_count": 30,
+    "file_size": 262848
+  },
+  "SLD12_T_0.317_270": {
+    "dimensions": [
+      839,
+      62
+    ],
+    "generation_time": 0.0024530887603759766,
+    "memory_consumption": 208072,
+    "local_minima_count": 22,
+    "file_size": 208200
+  },
+  "SLD12_T_0.344_000": {
+    "dimensions": [
+      817,
+      78
+    ],
+    "generation_time": 0.002650022506713867,
+    "memory_consumption": 254904,
+    "local_minima_count": 37,
+    "file_size": 255032
+  },
+  "SLD12_T_0.344_090": {
+    "dimensions": [
+      837,
+      58
+    ],
+    "generation_time": 0.002554655075073242,
+    "memory_consumption": 194184,
+    "local_minima_count": 22,
+    "file_size": 194312
+  },
+  "SLD12_T_0.344_180": {
+    "dimensions": [
+      817,
+      78
+    ],
+    "generation_time": 0.0024099349975585938,
+    "memory_consumption": 254904,
+    "local_minima_count": 25,
+    "file_size": 255032
+  },
+  "SLD12_T_0.344_270": {
+    "dimensions": [
+      837,
+      58
+    ],
+    "generation_time": 0.0022897720336914062,
+    "memory_consumption": 194184,
+    "local_minima_count": 23,
+    "file_size": 194312
+  },
+  "SLD12_T_0.372_000": {
+    "dimensions": [
+      812,
+      75
+    ],
+    "generation_time": 0.0024080276489257812,
+    "memory_consumption": 243600,
+    "local_minima_count": 33,
+    "file_size": 243728
+  },
+  "SLD12_T_0.372_090": {
+    "dimensions": [
+      834,
+      53
+    ],
+    "generation_time": 0.0024919509887695312,
+    "memory_consumption": 176808,
+    "local_minima_count": 21,
+    "file_size": 176936
+  },
+  "SLD12_T_0.372_180": {
+    "dimensions": [
+      812,
+      75
+    ],
+    "generation_time": 0.0022072792053222656,
+    "memory_consumption": 243600,
+    "local_minima_count": 25,
+    "file_size": 243728
+  },
+  "SLD12_T_0.372_270": {
+    "dimensions": [
+      834,
+      53
+    ],
+    "generation_time": 0.0024139881134033203,
+    "memory_consumption": 176808,
+    "local_minima_count": 21,
+    "file_size": 176936
+  },
+  "SLD12_T_0.400_000": {
+    "dimensions": [
+      808,
+      72
+    ],
+    "generation_time": 0.0021677017211914062,
+    "memory_consumption": 232704,
+    "local_minima_count": 26,
+    "file_size": 232832
+  },
+  "SLD12_T_0.400_090": {
+    "dimensions": [
+      831,
+      49
+    ],
+    "generation_time": 0.0030426979064941406,
+    "memory_consumption": 162876,
+    "local_minima_count": 23,
+    "file_size": 163004
+  },
+  "SLD12_T_0.400_180": {
+    "dimensions": [
+      808,
+      72
+    ],
+    "generation_time": 0.0020978450775146484,
+    "memory_consumption": 232704,
+    "local_minima_count": 26,
+    "file_size": 232832
+  },
+  "SLD12_T_0.400_270": {
+    "dimensions": [
+      831,
+      49
+    ],
+    "generation_time": 0.0027332305908203125,
+    "memory_consumption": 162876,
+    "local_minima_count": 20,
+    "file_size": 163004
+  },
+  "SLD2_T_0.150_000": {
+    "dimensions": [
+      1001,
+      664
+    ],
+    "generation_time": 0.017055034637451172,
+    "memory_consumption": 2658656,
+    "local_minima_count": 1505,
+    "file_size": 2658784
+  },
+  "SLD2_T_0.150_090": {
+    "dimensions": [
+      1010,
+      655
+    ],
+    "generation_time": 0.018410205841064453,
+    "memory_consumption": 2646200,
+    "local_minima_count": 865,
+    "file_size": 2646328
+  },
+  "SLD2_T_0.150_180": {
+    "dimensions": [
+      1001,
+      664
+    ],
+    "generation_time": 0.017789125442504883,
+    "memory_consumption": 2658656,
+    "local_minima_count": 939,
+    "file_size": 2658784
+  },
+  "SLD2_T_0.150_270": {
+    "dimensions": [
+      1010,
+      655
+    ],
+    "generation_time": 0.016887664794921875,
+    "memory_consumption": 2646200,
+    "local_minima_count": 922,
+    "file_size": 2646328
+  },
+  "SLD2_T_0.178_000": {
+    "dimensions": [
+      996,
+      661
+    ],
+    "generation_time": 0.016550302505493164,
+    "memory_consumption": 2633424,
+    "local_minima_count": 891,
+    "file_size": 2633552
+  },
+  "SLD2_T_0.178_090": {
+    "dimensions": [
+      1007,
+      650
+    ],
+    "generation_time": 0.01762866973876953,
+    "memory_consumption": 2618200,
+    "local_minima_count": 1062,
+    "file_size": 2618328
+  },
+  "SLD2_T_0.178_180": {
+    "dimensions": [
+      996,
+      661
+    ],
+    "generation_time": 0.01687932014465332,
+    "memory_consumption": 2633424,
+    "local_minima_count": 830,
+    "file_size": 2633552
+  },
+  "SLD2_T_0.178_270": {
+    "dimensions": [
+      1007,
+      650
+    ],
+    "generation_time": 0.017166852951049805,
+    "memory_consumption": 2618200,
+    "local_minima_count": 802,
+    "file_size": 2618328
+  },
+  "SLD2_T_0.206_000": {
+    "dimensions": [
+      992,
+      658
+    ],
+    "generation_time": 0.017173051834106445,
+    "memory_consumption": 2610944,
+    "local_minima_count": 1037,
+    "file_size": 2611072
+  },
+  "SLD2_T_0.206_090": {
+    "dimensions": [
+      1004,
+      646
+    ],
+    "generation_time": 0.019364118576049805,
+    "memory_consumption": 2594336,
+    "local_minima_count": 663,
+    "file_size": 2594464
+  },
+  "SLD2_T_0.206_180": {
+    "dimensions": [
+      992,
+      658
+    ],
+    "generation_time": 0.016863584518432617,
+    "memory_consumption": 2610944,
+    "local_minima_count": 790,
+    "file_size": 2611072
+  },
+  "SLD2_T_0.206_270": {
+    "dimensions": [
+      1004,
+      646
+    ],
+    "generation_time": 0.01819300651550293,
+    "memory_consumption": 2594336,
+    "local_minima_count": 696,
+    "file_size": 2594464
+  },
+  "SLD2_T_0.233_000": {
+    "dimensions": [
+      987,
+      655
+    ],
+    "generation_time": 0.016695022583007812,
+    "memory_consumption": 2585940,
+    "local_minima_count": 944,
+    "file_size": 2586068
+  },
+  "SLD2_T_0.233_090": {
+    "dimensions": [
+      1001,
+      641
+    ],
+    "generation_time": 0.018223047256469727,
+    "memory_consumption": 2566564,
+    "local_minima_count": 608,
+    "file_size": 2566692
+  },
+  "SLD2_T_0.233_180": {
+    "dimensions": [
+      987,
+      655
+    ],
+    "generation_time": 0.0162506103515625,
+    "memory_consumption": 2585940,
+    "local_minima_count": 701,
+    "file_size": 2586068
+  },
+  "SLD2_T_0.233_270": {
+    "dimensions": [
+      1001,
+      641
+    ],
+    "generation_time": 0.018391847610473633,
+    "memory_consumption": 2566564,
+    "local_minima_count": 631,
+    "file_size": 2566692
+  },
+  "SLD2_T_0.261_000": {
+    "dimensions": [
+      983,
+      652
+    ],
+    "generation_time": 0.017115354537963867,
+    "memory_consumption": 2563664,
+    "local_minima_count": 667,
+    "file_size": 2563792
+  },
+  "SLD2_T_0.261_090": {
+    "dimensions": [
+      998,
+      637
+    ],
+    "generation_time": 0.0192568302154541,
+    "memory_consumption": 2542904,
+    "local_minima_count": 573,
+    "file_size": 2543032
+  },
+  "SLD2_T_0.261_180": {
+    "dimensions": [
+      983,
+      652
+    ],
+    "generation_time": 0.016836166381835938,
+    "memory_consumption": 2563664,
+    "local_minima_count": 654,
+    "file_size": 2563792
+  },
+  "SLD2_T_0.261_270": {
+    "dimensions": [
+      998,
+      637
+    ],
+    "generation_time": 0.019219398498535156,
+    "memory_consumption": 2542904,
+    "local_minima_count": 424,
+    "file_size": 2543032
+  },
+  "SLD2_T_0.289_000": {
+    "dimensions": [
+      978,
+      649
+    ],
+    "generation_time": 0.017891645431518555,
+    "memory_consumption": 2538888,
+    "local_minima_count": 638,
+    "file_size": 2539016
+  },
+  "SLD2_T_0.289_090": {
+    "dimensions": [
+      995,
+      632
+    ],
+    "generation_time": 0.02024984359741211,
+    "memory_consumption": 2515360,
+    "local_minima_count": 326,
+    "file_size": 2515488
+  },
+  "SLD2_T_0.289_180": {
+    "dimensions": [
+      978,
+      649
+    ],
+    "generation_time": 0.018046140670776367,
+    "memory_consumption": 2538888,
+    "local_minima_count": 618,
+    "file_size": 2539016
+  },
+  "SLD2_T_0.289_270": {
+    "dimensions": [
+      995,
+      632
+    ],
+    "generation_time": 0.020051002502441406,
+    "memory_consumption": 2515360,
+    "local_minima_count": 323,
+    "file_size": 2515488
+  },
+  "SLD2_T_0.317_000": {
+    "dimensions": [
+      974,
+      646
+    ],
+    "generation_time": 0.01844477653503418,
+    "memory_consumption": 2516816,
+    "local_minima_count": 567,
+    "file_size": 2516944
+  },
+  "SLD2_T_0.317_090": {
+    "dimensions": [
+      992,
+      628
+    ],
+    "generation_time": 0.01743936538696289,
+    "memory_consumption": 2491904,
+    "local_minima_count": 317,
+    "file_size": 2492032
+  },
+  "SLD2_T_0.317_180": {
+    "dimensions": [
+      974,
+      646
+    ],
+    "generation_time": 0.019561767578125,
+    "memory_consumption": 2516816,
+    "local_minima_count": 600,
+    "file_size": 2516944
+  },
+  "SLD2_T_0.317_270": {
+    "dimensions": [
+      992,
+      628
+    ],
+    "generation_time": 0.017072677612304688,
+    "memory_consumption": 2491904,
+    "local_minima_count": 276,
+    "file_size": 2492032
+  },
+  "SLD2_T_0.344_000": {
+    "dimensions": [
+      970,
+      644
+    ],
+    "generation_time": 0.016931772232055664,
+    "memory_consumption": 2498720,
+    "local_minima_count": 537,
+    "file_size": 2498848
+  },
+  "SLD2_T_0.344_090": {
+    "dimensions": [
+      990,
+      624
+    ],
+    "generation_time": 0.017875194549560547,
+    "memory_consumption": 2471040,
+    "local_minima_count": 289,
+    "file_size": 2471168
+  },
+  "SLD2_T_0.344_180": {
+    "dimensions": [
+      970,
+      644
+    ],
+    "generation_time": 0.0184786319732666,
+    "memory_consumption": 2498720,
+    "local_minima_count": 586,
+    "file_size": 2498848
+  },
+  "SLD2_T_0.344_270": {
+    "dimensions": [
+      990,
+      624
+    ],
+    "generation_time": 0.018392324447631836,
+    "memory_consumption": 2471040,
+    "local_minima_count": 261,
+    "file_size": 2471168
+  },
+  "SLD2_T_0.372_000": {
+    "dimensions": [
+      965,
+      641
+    ],
+    "generation_time": 0.018724918365478516,
+    "memory_consumption": 2474260,
+    "local_minima_count": 328,
+    "file_size": 2474388
+  },
+  "SLD2_T_0.372_090": {
+    "dimensions": [
+      987,
+      619
+    ],
+    "generation_time": 0.01945948600769043,
+    "memory_consumption": 2443812,
+    "local_minima_count": 271,
+    "file_size": 2443940
+  },
+  "SLD2_T_0.372_180": {
+    "dimensions": [
+      965,
+      641
+    ],
+    "generation_time": 0.01878499984741211,
+    "memory_consumption": 2474260,
+    "local_minima_count": 555,
+    "file_size": 2474388
+  },
+  "SLD2_T_0.372_270": {
+    "dimensions": [
+      987,
+      619
+    ],
+    "generation_time": 0.020531892776489258,
+    "memory_consumption": 2443812,
+    "local_minima_count": 251,
+    "file_size": 2443940
+  },
+  "SLD2_T_0.400_000": {
+    "dimensions": [
+      961,
+      638
+    ],
+    "generation_time": 0.018734455108642578,
+    "memory_consumption": 2452472,
+    "local_minima_count": 329,
+    "file_size": 2452600
+  },
+  "SLD2_T_0.400_090": {
+    "dimensions": [
+      984,
+      615
+    ],
+    "generation_time": 0.019444704055786133,
+    "memory_consumption": 2420640,
+    "local_minima_count": 259,
+    "file_size": 2420768
+  },
+  "SLD2_T_0.400_180": {
+    "dimensions": [
+      961,
+      638
+    ],
+    "generation_time": 0.018599987030029297,
+    "memory_consumption": 2452472,
+    "local_minima_count": 675,
+    "file_size": 2452600
+  },
+  "SLD2_T_0.400_270": {
+    "dimensions": [
+      984,
+      615
+    ],
+    "generation_time": 0.02047562599182129,
+    "memory_consumption": 2420640,
+    "local_minima_count": 240,
+    "file_size": 2420768
+  },
+  "SLD3_T_0.150_000": {
+    "dimensions": [
+      1766,
+      354
+    ],
+    "generation_time": 0.017679929733276367,
+    "memory_consumption": 2500656,
+    "local_minima_count": 2290,
+    "file_size": 2500784
+  },
+  "SLD3_T_0.150_090": {
+    "dimensions": [
+      1775,
+      345
+    ],
+    "generation_time": 0.017472267150878906,
+    "memory_consumption": 2449500,
+    "local_minima_count": 1357,
+    "file_size": 2449628
+  },
+  "SLD3_T_0.150_180": {
+    "dimensions": [
+      1766,
+      354
+    ],
+    "generation_time": 0.01758098602294922,
+    "memory_consumption": 2500656,
+    "local_minima_count": 1294,
+    "file_size": 2500784
+  },
+  "SLD3_T_0.150_270": {
+    "dimensions": [
+      1775,
+      345
+    ],
+    "generation_time": 0.01721811294555664,
+    "memory_consumption": 2449500,
+    "local_minima_count": 1301,
+    "file_size": 2449628
+  },
+  "SLD3_T_0.178_000": {
+    "dimensions": [
+      1761,
+      351
+    ],
+    "generation_time": 0.017264366149902344,
+    "memory_consumption": 2472444,
+    "local_minima_count": 1228,
+    "file_size": 2472572
+  },
+  "SLD3_T_0.178_090": {
+    "dimensions": [
+      1772,
+      340
+    ],
+    "generation_time": 0.017120838165283203,
+    "memory_consumption": 2409920,
+    "local_minima_count": 2106,
+    "file_size": 2410048
+  },
+  "SLD3_T_0.178_180": {
+    "dimensions": [
+      1761,
+      351
+    ],
+    "generation_time": 0.017192602157592773,
+    "memory_consumption": 2472444,
+    "local_minima_count": 1222,
+    "file_size": 2472572
+  },
+  "SLD3_T_0.178_270": {
+    "dimensions": [
+      1772,
+      340
+    ],
+    "generation_time": 0.017834186553955078,
+    "memory_consumption": 2409920,
+    "local_minima_count": 1250,
+    "file_size": 2410048
+  },
+  "SLD3_T_0.206_000": {
+    "dimensions": [
+      1757,
+      348
+    ],
+    "generation_time": 0.017516136169433594,
+    "memory_consumption": 2445744,
+    "local_minima_count": 1970,
+    "file_size": 2445872
+  },
+  "SLD3_T_0.206_090": {
+    "dimensions": [
+      1769,
+      336
+    ],
+    "generation_time": 0.01663064956665039,
+    "memory_consumption": 2377536,
+    "local_minima_count": 1171,
+    "file_size": 2377664
+  },
+  "SLD3_T_0.206_180": {
+    "dimensions": [
+      1757,
+      348
+    ],
+    "generation_time": 0.01677727699279785,
+    "memory_consumption": 2445744,
+    "local_minima_count": 1193,
+    "file_size": 2445872
+  },
+  "SLD3_T_0.206_270": {
+    "dimensions": [
+      1769,
+      336
+    ],
+    "generation_time": 0.017113447189331055,
+    "memory_consumption": 2377536,
+    "local_minima_count": 1205,
+    "file_size": 2377664
+  },
+  "SLD3_T_0.233_000": {
+    "dimensions": [
+      1752,
+      345
+    ],
+    "generation_time": 0.018271446228027344,
+    "memory_consumption": 2417760,
+    "local_minima_count": 1925,
+    "file_size": 2417888
+  },
+  "SLD3_T_0.233_090": {
+    "dimensions": [
+      1766,
+      331
+    ],
+    "generation_time": 0.01706385612487793,
+    "memory_consumption": 2338184,
+    "local_minima_count": 1098,
+    "file_size": 2338312
+  },
+  "SLD3_T_0.233_180": {
+    "dimensions": [
+      1752,
+      345
+    ],
+    "generation_time": 0.0162966251373291,
+    "memory_consumption": 2417760,
+    "local_minima_count": 1148,
+    "file_size": 2417888
+  },
+  "SLD3_T_0.233_270": {
+    "dimensions": [
+      1766,
+      331
+    ],
+    "generation_time": 0.01558232307434082,
+    "memory_consumption": 2338184,
+    "local_minima_count": 1159,
+    "file_size": 2338312
+  },
+  "SLD3_T_0.261_000": {
+    "dimensions": [
+      1748,
+      342
+    ],
+    "generation_time": 0.01756119728088379,
+    "memory_consumption": 2391264,
+    "local_minima_count": 1115,
+    "file_size": 2391392
+  },
+  "SLD3_T_0.261_090": {
+    "dimensions": [
+      1763,
+      327
+    ],
+    "generation_time": 0.016939640045166016,
+    "memory_consumption": 2306004,
+    "local_minima_count": 1055,
+    "file_size": 2306132
+  },
+  "SLD3_T_0.261_180": {
+    "dimensions": [
+      1748,
+      342
+    ],
+    "generation_time": 0.017505407333374023,
+    "memory_consumption": 2391264,
+    "local_minima_count": 1130,
+    "file_size": 2391392
+  },
+  "SLD3_T_0.261_270": {
+    "dimensions": [
+      1763,
+      327
+    ],
+    "generation_time": 0.017240047454833984,
+    "memory_consumption": 2306004,
+    "local_minima_count": 1126,
+    "file_size": 2306132
+  },
+  "SLD3_T_0.289_000": {
+    "dimensions": [
+      1743,
+      339
+    ],
+    "generation_time": 0.016140222549438477,
+    "memory_consumption": 2363508,
+    "local_minima_count": 1100,
+    "file_size": 2363636
+  },
+  "SLD3_T_0.289_090": {
+    "dimensions": [
+      1760,
+      322
+    ],
+    "generation_time": 0.017269372940063477,
+    "memory_consumption": 2266880,
+    "local_minima_count": 1032,
+    "file_size": 2267008
+  },
+  "SLD3_T_0.289_180": {
+    "dimensions": [
+      1743,
+      339
+    ],
+    "generation_time": 0.016793251037597656,
+    "memory_consumption": 2363508,
+    "local_minima_count": 1114,
+    "file_size": 2363636
+  },
+  "SLD3_T_0.289_270": {
+    "dimensions": [
+      1760,
+      322
+    ],
+    "generation_time": 0.017755746841430664,
+    "memory_consumption": 2266880,
+    "local_minima_count": 1057,
+    "file_size": 2267008
+  },
+  "SLD3_T_0.317_000": {
+    "dimensions": [
+      1739,
+      336
+    ],
+    "generation_time": 0.017598867416381836,
+    "memory_consumption": 2337216,
+    "local_minima_count": 1076,
+    "file_size": 2337344
+  },
+  "SLD3_T_0.317_090": {
+    "dimensions": [
+      1757,
+      318
+    ],
+    "generation_time": 0.017819881439208984,
+    "memory_consumption": 2234904,
+    "local_minima_count": 1004,
+    "file_size": 2235032
+  },
+  "SLD3_T_0.317_180": {
+    "dimensions": [
+      1739,
+      336
+    ],
+    "generation_time": 0.017765522003173828,
+    "memory_consumption": 2337216,
+    "local_minima_count": 1082,
+    "file_size": 2337344
+  },
+  "SLD3_T_0.317_270": {
+    "dimensions": [
+      1757,
+      318
+    ],
+    "generation_time": 0.017651796340942383,
+    "memory_consumption": 2234904,
+    "local_minima_count": 1051,
+    "file_size": 2235032
+  },
+  "SLD3_T_0.344_000": {
+    "dimensions": [
+      1735,
+      334
+    ],
+    "generation_time": 0.015857934951782227,
+    "memory_consumption": 2317960,
+    "local_minima_count": 1058,
+    "file_size": 2318088
+  },
+  "SLD3_T_0.344_090": {
+    "dimensions": [
+      1755,
+      314
+    ],
+    "generation_time": 0.018889427185058594,
+    "memory_consumption": 2204280,
+    "local_minima_count": 952,
+    "file_size": 2204408
+  },
+  "SLD3_T_0.344_180": {
+    "dimensions": [
+      1735,
+      334
+    ],
+    "generation_time": 0.016902685165405273,
+    "memory_consumption": 2317960,
+    "local_minima_count": 1056,
+    "file_size": 2318088
+  },
+  "SLD3_T_0.344_270": {
+    "dimensions": [
+      1755,
+      314
+    ],
+    "generation_time": 0.019728422164916992,
+    "memory_consumption": 2204280,
+    "local_minima_count": 938,
+    "file_size": 2204408
+  },
+  "SLD3_T_0.372_000": {
+    "dimensions": [
+      1730,
+      331
+    ],
+    "generation_time": 0.016117334365844727,
+    "memory_consumption": 2290520,
+    "local_minima_count": 1027,
+    "file_size": 2290648
+  },
+  "SLD3_T_0.372_090": {
+    "dimensions": [
+      1752,
+      309
+    ],
+    "generation_time": 0.021880626678466797,
+    "memory_consumption": 2165472,
+    "local_minima_count": 863,
+    "file_size": 2165600
+  },
+  "SLD3_T_0.372_180": {
+    "dimensions": [
+      1730,
+      331
+    ],
+    "generation_time": 0.01554107666015625,
+    "memory_consumption": 2290520,
+    "local_minima_count": 1034,
+    "file_size": 2290648
+  },
+  "SLD3_T_0.372_270": {
+    "dimensions": [
+      1752,
+      309
+    ],
+    "generation_time": 0.021688222885131836,
+    "memory_consumption": 2165472,
+    "local_minima_count": 886,
+    "file_size": 2165600
+  },
+  "SLD3_T_0.400_000": {
+    "dimensions": [
+      1726,
+      328
+    ],
+    "generation_time": 0.01756763458251953,
+    "memory_consumption": 2264512,
+    "local_minima_count": 1000,
+    "file_size": 2264640
+  },
+  "SLD3_T_0.400_090": {
+    "dimensions": [
+      1749,
+      305
+    ],
+    "generation_time": 0.022936344146728516,
+    "memory_consumption": 2133780,
+    "local_minima_count": 819,
+    "file_size": 2133908
+  },
+  "SLD3_T_0.400_180": {
+    "dimensions": [
+      1726,
+      328
+    ],
+    "generation_time": 0.016977310180664062,
+    "memory_consumption": 2264512,
+    "local_minima_count": 1008,
+    "file_size": 2264640
+  },
+  "SLD3_T_0.400_270": {
+    "dimensions": [
+      1749,
+      305
+    ],
+    "generation_time": 0.021158695220947266,
+    "memory_consumption": 2133780,
+    "local_minima_count": 848,
+    "file_size": 2133908
+  },
+  "SLD4_T_0.150_000": {
+    "dimensions": [
+      783,
+      241
+    ],
+    "generation_time": 0.007016420364379883,
+    "memory_consumption": 754812,
+    "local_minima_count": 131,
+    "file_size": 754940
+  },
+  "SLD4_T_0.150_090": {
+    "dimensions": [
+      792,
+      232
+    ],
+    "generation_time": 0.006253957748413086,
+    "memory_consumption": 734976,
+    "local_minima_count": 216,
+    "file_size": 735104
+  },
+  "SLD4_T_0.150_180": {
+    "dimensions": [
+      783,
+      241
+    ],
+    "generation_time": 0.006508827209472656,
+    "memory_consumption": 754812,
+    "local_minima_count": 145,
+    "file_size": 754940
+  },
+  "SLD4_T_0.150_270": {
+    "dimensions": [
+      792,
+      232
+    ],
+    "generation_time": 0.006978034973144531,
+    "memory_consumption": 734976,
+    "local_minima_count": 143,
+    "file_size": 735104
+  },
+  "SLD4_T_0.178_000": {
+    "dimensions": [
+      778,
+      238
+    ],
+    "generation_time": 0.006441354751586914,
+    "memory_consumption": 740656,
+    "local_minima_count": 111,
+    "file_size": 740784
+  },
+  "SLD4_T_0.178_090": {
+    "dimensions": [
+      789,
+      227
+    ],
+    "generation_time": 0.00607752799987793,
+    "memory_consumption": 716412,
+    "local_minima_count": 130,
+    "file_size": 716540
+  },
+  "SLD4_T_0.178_180": {
+    "dimensions": [
+      778,
+      238
+    ],
+    "generation_time": 0.006172895431518555,
+    "memory_consumption": 740656,
+    "local_minima_count": 123,
+    "file_size": 740784
+  },
+  "SLD4_T_0.178_270": {
+    "dimensions": [
+      789,
+      227
+    ],
+    "generation_time": 0.0058879852294921875,
+    "memory_consumption": 716412,
+    "local_minima_count": 118,
+    "file_size": 716540
+  },
+  "SLD4_T_0.206_000": {
+    "dimensions": [
+      774,
+      235
+    ],
+    "generation_time": 0.00583338737487793,
+    "memory_consumption": 727560,
+    "local_minima_count": 81,
+    "file_size": 727688
+  },
+  "SLD4_T_0.206_090": {
+    "dimensions": [
+      786,
+      223
+    ],
+    "generation_time": 0.006264686584472656,
+    "memory_consumption": 701112,
+    "local_minima_count": 152,
+    "file_size": 701240
+  },
+  "SLD4_T_0.206_180": {
+    "dimensions": [
+      774,
+      235
+    ],
+    "generation_time": 0.0062601566314697266,
+    "memory_consumption": 727560,
+    "local_minima_count": 106,
+    "file_size": 727688
+  },
+  "SLD4_T_0.206_270": {
+    "dimensions": [
+      786,
+      223
+    ],
+    "generation_time": 0.0060749053955078125,
+    "memory_consumption": 701112,
+    "local_minima_count": 99,
+    "file_size": 701240
+  },
+  "SLD4_T_0.233_000": {
+    "dimensions": [
+      769,
+      232
+    ],
+    "generation_time": 0.0065767765045166016,
+    "memory_consumption": 713632,
+    "local_minima_count": 72,
+    "file_size": 713760
+  },
+  "SLD4_T_0.233_090": {
+    "dimensions": [
+      783,
+      218
+    ],
+    "generation_time": 0.005517721176147461,
+    "memory_consumption": 682776,
+    "local_minima_count": 73,
+    "file_size": 682904
+  },
+  "SLD4_T_0.233_180": {
+    "dimensions": [
+      769,
+      232
+    ],
+    "generation_time": 0.006764888763427734,
+    "memory_consumption": 713632,
+    "local_minima_count": 90,
+    "file_size": 713760
+  },
+  "SLD4_T_0.233_270": {
+    "dimensions": [
+      783,
+      218
+    ],
+    "generation_time": 0.005676746368408203,
+    "memory_consumption": 682776,
+    "local_minima_count": 77,
+    "file_size": 682904
+  },
+  "SLD4_T_0.261_000": {
+    "dimensions": [
+      765,
+      229
+    ],
+    "generation_time": 0.00625157356262207,
+    "memory_consumption": 700740,
+    "local_minima_count": 71,
+    "file_size": 700868
+  },
+  "SLD4_T_0.261_090": {
+    "dimensions": [
+      780,
+      214
+    ],
+    "generation_time": 0.00612640380859375,
+    "memory_consumption": 667680,
+    "local_minima_count": 44,
+    "file_size": 667808
+  },
+  "SLD4_T_0.261_180": {
+    "dimensions": [
+      765,
+      229
+    ],
+    "generation_time": 0.006227254867553711,
+    "memory_consumption": 700740,
+    "local_minima_count": 74,
+    "file_size": 700868
+  },
+  "SLD4_T_0.261_270": {
+    "dimensions": [
+      780,
+      214
+    ],
+    "generation_time": 0.005692243576049805,
+    "memory_consumption": 667680,
+    "local_minima_count": 44,
+    "file_size": 667808
+  },
+  "SLD4_T_0.289_000": {
+    "dimensions": [
+      760,
+      226
+    ],
+    "generation_time": 0.006157875061035156,
+    "memory_consumption": 687040,
+    "local_minima_count": 64,
+    "file_size": 687168
+  },
+  "SLD4_T_0.289_090": {
+    "dimensions": [
+      777,
+      209
+    ],
+    "generation_time": 0.007157325744628906,
+    "memory_consumption": 649572,
+    "local_minima_count": 36,
+    "file_size": 649700
+  },
+  "SLD4_T_0.289_180": {
+    "dimensions": [
+      760,
+      226
+    ],
+    "generation_time": 0.006625652313232422,
+    "memory_consumption": 687040,
+    "local_minima_count": 63,
+    "file_size": 687168
+  },
+  "SLD4_T_0.289_270": {
+    "dimensions": [
+      777,
+      209
+    ],
+    "generation_time": 0.007255077362060547,
+    "memory_consumption": 649572,
+    "local_minima_count": 41,
+    "file_size": 649700
+  },
+  "SLD4_T_0.317_000": {
+    "dimensions": [
+      756,
+      223
+    ],
+    "generation_time": 0.006723642349243164,
+    "memory_consumption": 674352,
+    "local_minima_count": 55,
+    "file_size": 674480
+  },
+  "SLD4_T_0.317_090": {
+    "dimensions": [
+      774,
+      205
+    ],
+    "generation_time": 0.006848335266113281,
+    "memory_consumption": 634680,
+    "local_minima_count": 37,
+    "file_size": 634808
+  },
+  "SLD4_T_0.317_180": {
+    "dimensions": [
+      756,
+      223
+    ],
+    "generation_time": 0.006348133087158203,
+    "memory_consumption": 674352,
+    "local_minima_count": 55,
+    "file_size": 674480
+  },
+  "SLD4_T_0.317_270": {
+    "dimensions": [
+      774,
+      205
+    ],
+    "generation_time": 0.006954669952392578,
+    "memory_consumption": 634680,
+    "local_minima_count": 36,
+    "file_size": 634808
+  },
+  "SLD4_T_0.344_000": {
+    "dimensions": [
+      752,
+      221
+    ],
+    "generation_time": 0.008083820343017578,
+    "memory_consumption": 664768,
+    "local_minima_count": 54,
+    "file_size": 664896
+  },
+  "SLD4_T_0.344_090": {
+    "dimensions": [
+      772,
+      201
+    ],
+    "generation_time": 0.0049724578857421875,
+    "memory_consumption": 620688,
+    "local_minima_count": 28,
+    "file_size": 620816
+  },
+  "SLD4_T_0.344_180": {
+    "dimensions": [
+      752,
+      221
+    ],
+    "generation_time": 0.006581306457519531,
+    "memory_consumption": 664768,
+    "local_minima_count": 43,
+    "file_size": 664896
+  },
+  "SLD4_T_0.344_270": {
+    "dimensions": [
+      772,
+      201
+    ],
+    "generation_time": 0.00533604621887207,
+    "memory_consumption": 620688,
+    "local_minima_count": 29,
+    "file_size": 620816
+  },
+  "SLD4_T_0.372_000": {
+    "dimensions": [
+      747,
+      218
+    ],
+    "generation_time": 0.006058692932128906,
+    "memory_consumption": 651384,
+    "local_minima_count": 48,
+    "file_size": 651512
+  },
+  "SLD4_T_0.372_090": {
+    "dimensions": [
+      769,
+      196
+    ],
+    "generation_time": 0.005140781402587891,
+    "memory_consumption": 602896,
+    "local_minima_count": 28,
+    "file_size": 603024
+  },
+  "SLD4_T_0.372_180": {
+    "dimensions": [
+      747,
+      218
+    ],
+    "generation_time": 0.005820751190185547,
+    "memory_consumption": 651384,
+    "local_minima_count": 43,
+    "file_size": 651512
+  },
+  "SLD4_T_0.372_270": {
+    "dimensions": [
+      769,
+      196
+    ],
+    "generation_time": 0.004891872406005859,
+    "memory_consumption": 602896,
+    "local_minima_count": 27,
+    "file_size": 603024
+  },
+  "SLD4_T_0.400_000": {
+    "dimensions": [
+      743,
+      215
+    ],
+    "generation_time": 0.005885124206542969,
+    "memory_consumption": 638980,
+    "local_minima_count": 42,
+    "file_size": 639108
+  },
+  "SLD4_T_0.400_090": {
+    "dimensions": [
+      766,
+      192
+    ],
+    "generation_time": 0.0052318572998046875,
+    "memory_consumption": 588288,
+    "local_minima_count": 27,
+    "file_size": 588416
+  },
+  "SLD4_T_0.400_180": {
+    "dimensions": [
+      743,
+      215
+    ],
+    "generation_time": 0.006804227828979492,
+    "memory_consumption": 638980,
+    "local_minima_count": 43,
+    "file_size": 639108
+  },
+  "SLD4_T_0.400_270": {
+    "dimensions": [
+      766,
+      192
+    ],
+    "generation_time": 0.0052030086517333984,
+    "memory_consumption": 588288,
+    "local_minima_count": 24,
+    "file_size": 588416
+  },
+  "SLD7_T_0.150_000": {
+    "dimensions": [
+      1755,
+      805
+    ],
+    "generation_time": 0.034368276596069336,
+    "memory_consumption": 5651100,
+    "local_minima_count": 3356,
+    "file_size": 5651228
+  },
+  "SLD7_T_0.150_090": {
+    "dimensions": [
+      1764,
+      796
+    ],
+    "generation_time": 0.03531360626220703,
+    "memory_consumption": 5616576,
+    "local_minima_count": 3745,
+    "file_size": 5616704
+  },
+  "SLD7_T_0.150_180": {
+    "dimensions": [
+      1755,
+      805
+    ],
+    "generation_time": 0.03780865669250488,
+    "memory_consumption": 5651100,
+    "local_minima_count": 2684,
+    "file_size": 5651228
+  },
+  "SLD7_T_0.150_270": {
+    "dimensions": [
+      1764,
+      796
+    ],
+    "generation_time": 0.035706281661987305,
+    "memory_consumption": 5616576,
+    "local_minima_count": 2771,
+    "file_size": 5616704
+  },
+  "SLD7_T_0.178_000": {
+    "dimensions": [
+      1750,
+      802
+    ],
+    "generation_time": 0.03549838066101074,
+    "memory_consumption": 5614000,
+    "local_minima_count": 2686,
+    "file_size": 5614128
+  },
+  "SLD7_T_0.178_090": {
+    "dimensions": [
+      1761,
+      791
+    ],
+    "generation_time": 0.03711104393005371,
+    "memory_consumption": 5571804,
+    "local_minima_count": 2550,
+    "file_size": 5571932
+  },
+  "SLD7_T_0.178_180": {
+    "dimensions": [
+      1750,
+      802
+    ],
+    "generation_time": 0.03676462173461914,
+    "memory_consumption": 5614000,
+    "local_minima_count": 2318,
+    "file_size": 5614128
+  },
+  "SLD7_T_0.178_270": {
+    "dimensions": [
+      1761,
+      791
+    ],
+    "generation_time": 0.038516998291015625,
+    "memory_consumption": 5571804,
+    "local_minima_count": 2466,
+    "file_size": 5571932
+  },
+  "SLD7_T_0.206_000": {
+    "dimensions": [
+      1746,
+      799
+    ],
+    "generation_time": 0.0421600341796875,
+    "memory_consumption": 5580216,
+    "local_minima_count": 2380,
+    "file_size": 5580344
+  },
+  "SLD7_T_0.206_090": {
+    "dimensions": [
+      1758,
+      787
+    ],
+    "generation_time": 0.03652334213256836,
+    "memory_consumption": 5534184,
+    "local_minima_count": 2849,
+    "file_size": 5534312
+  },
+  "SLD7_T_0.206_180": {
+    "dimensions": [
+      1746,
+      799
+    ],
+    "generation_time": 0.03548622131347656,
+    "memory_consumption": 5580216,
+    "local_minima_count": 2129,
+    "file_size": 5580344
+  },
+  "SLD7_T_0.206_270": {
+    "dimensions": [
+      1758,
+      787
+    ],
+    "generation_time": 0.036664485931396484,
+    "memory_consumption": 5534184,
+    "local_minima_count": 2199,
+    "file_size": 5534312
+  },
+  "SLD7_T_0.233_000": {
+    "dimensions": [
+      1741,
+      796
+    ],
+    "generation_time": 0.03790402412414551,
+    "memory_consumption": 5543344,
+    "local_minima_count": 2230,
+    "file_size": 5543472
+  },
+  "SLD7_T_0.233_090": {
+    "dimensions": [
+      1755,
+      782
+    ],
+    "generation_time": 0.036406755447387695,
+    "memory_consumption": 5489640,
+    "local_minima_count": 1818,
+    "file_size": 5489768
+  },
+  "SLD7_T_0.233_180": {
+    "dimensions": [
+      1741,
+      796
+    ],
+    "generation_time": 0.039690494537353516,
+    "memory_consumption": 5543344,
+    "local_minima_count": 2028,
+    "file_size": 5543472
+  },
+  "SLD7_T_0.233_270": {
+    "dimensions": [
+      1755,
+      782
+    ],
+    "generation_time": 0.03577303886413574,
+    "memory_consumption": 5489640,
+    "local_minima_count": 1953,
+    "file_size": 5489768
+  },
+  "SLD7_T_0.261_000": {
+    "dimensions": [
+      1737,
+      793
+    ],
+    "generation_time": 0.039360761642456055,
+    "memory_consumption": 5509764,
+    "local_minima_count": 1782,
+    "file_size": 5509892
+  },
+  "SLD7_T_0.261_090": {
+    "dimensions": [
+      1752,
+      778
+    ],
+    "generation_time": 0.034909725189208984,
+    "memory_consumption": 5452224,
+    "local_minima_count": 1693,
+    "file_size": 5452352
+  },
+  "SLD7_T_0.261_180": {
+    "dimensions": [
+      1737,
+      793
+    ],
+    "generation_time": 0.03776907920837402,
+    "memory_consumption": 5509764,
+    "local_minima_count": 1844,
+    "file_size": 5509892
+  },
+  "SLD7_T_0.261_270": {
+    "dimensions": [
+      1752,
+      778
+    ],
+    "generation_time": 0.035851478576660156,
+    "memory_consumption": 5452224,
+    "local_minima_count": 1774,
+    "file_size": 5452352
+  },
+  "SLD7_T_0.289_000": {
+    "dimensions": [
+      1732,
+      790
+    ],
+    "generation_time": 0.03601360321044922,
+    "memory_consumption": 5473120,
+    "local_minima_count": 1686,
+    "file_size": 5473248
+  },
+  "SLD7_T_0.289_090": {
+    "dimensions": [
+      1749,
+      773
+    ],
+    "generation_time": 0.0379946231842041,
+    "memory_consumption": 5407908,
+    "local_minima_count": 1620,
+    "file_size": 5408036
+  },
+  "SLD7_T_0.289_180": {
+    "dimensions": [
+      1732,
+      790
+    ],
+    "generation_time": 0.034644126892089844,
+    "memory_consumption": 5473120,
+    "local_minima_count": 1684,
+    "file_size": 5473248
+  },
+  "SLD7_T_0.289_270": {
+    "dimensions": [
+      1749,
+      773
+    ],
+    "generation_time": 0.03882551193237305,
+    "memory_consumption": 5407908,
+    "local_minima_count": 1800,
+    "file_size": 5408036
+  },
+  "SLD7_T_0.317_000": {
+    "dimensions": [
+      1728,
+      787
+    ],
+    "generation_time": 0.03575944900512695,
+    "memory_consumption": 5439744,
+    "local_minima_count": 1586,
+    "file_size": 5439872
+  },
+  "SLD7_T_0.317_090": {
+    "dimensions": [
+      1746,
+      769
+    ],
+    "generation_time": 0.03756976127624512,
+    "memory_consumption": 5370696,
+    "local_minima_count": 2366,
+    "file_size": 5370824
+  },
+  "SLD7_T_0.317_180": {
+    "dimensions": [
+      1728,
+      787
+    ],
+    "generation_time": 0.03611326217651367,
+    "memory_consumption": 5439744,
+    "local_minima_count": 1655,
+    "file_size": 5439872
+  },
+  "SLD7_T_0.317_270": {
+    "dimensions": [
+      1746,
+      769
+    ],
+    "generation_time": 0.03695034980773926,
+    "memory_consumption": 5370696,
+    "local_minima_count": 1654,
+    "file_size": 5370824
+  },
+  "SLD7_T_0.344_000": {
+    "dimensions": [
+      1724,
+      785
+    ],
+    "generation_time": 0.0360407829284668,
+    "memory_consumption": 5413360,
+    "local_minima_count": 1488,
+    "file_size": 5413488
+  },
+  "SLD7_T_0.344_090": {
+    "dimensions": [
+      1744,
+      765
+    ],
+    "generation_time": 0.04438328742980957,
+    "memory_consumption": 5336640,
+    "local_minima_count": 1502,
+    "file_size": 5336768
+  },
+  "SLD7_T_0.344_180": {
+    "dimensions": [
+      1724,
+      785
+    ],
+    "generation_time": 0.037583351135253906,
+    "memory_consumption": 5413360,
+    "local_minima_count": 1537,
+    "file_size": 5413488
+  },
+  "SLD7_T_0.344_270": {
+    "dimensions": [
+      1744,
+      765
+    ],
+    "generation_time": 0.04740118980407715,
+    "memory_consumption": 5336640,
+    "local_minima_count": 1479,
+    "file_size": 5336768
+  },
+  "SLD7_T_0.372_000": {
+    "dimensions": [
+      1719,
+      782
+    ],
+    "generation_time": 0.03479433059692383,
+    "memory_consumption": 5377032,
+    "local_minima_count": 1423,
+    "file_size": 5377160
+  },
+  "SLD7_T_0.372_090": {
+    "dimensions": [
+      1741,
+      760
+    ],
+    "generation_time": 0.04196572303771973,
+    "memory_consumption": 5292640,
+    "local_minima_count": 823,
+    "file_size": 5292768
+  },
+  "SLD7_T_0.372_180": {
+    "dimensions": [
+      1719,
+      782
+    ],
+    "generation_time": 0.034052133560180664,
+    "memory_consumption": 5377032,
+    "local_minima_count": 1501,
+    "file_size": 5377160
+  },
+  "SLD7_T_0.372_270": {
+    "dimensions": [
+      1741,
+      760
+    ],
+    "generation_time": 0.04716777801513672,
+    "memory_consumption": 5292640,
+    "local_minima_count": 1242,
+    "file_size": 5292768
+  },
+  "SLD7_T_0.400_000": {
+    "dimensions": [
+      1715,
+      779
+    ],
+    "generation_time": 0.03376412391662598,
+    "memory_consumption": 5343940,
+    "local_minima_count": 1328,
+    "file_size": 5344068
+  },
+  "SLD7_T_0.400_090": {
+    "dimensions": [
+      1738,
+      756
+    ],
+    "generation_time": 0.04006052017211914,
+    "memory_consumption": 5255712,
+    "local_minima_count": 739,
+    "file_size": 5255840
+  },
+  "SLD7_T_0.400_180": {
+    "dimensions": [
+      1715,
+      779
+    ],
+    "generation_time": 0.03878474235534668,
+    "memory_consumption": 5343940,
+    "local_minima_count": 1398,
+    "file_size": 5344068
+  },
+  "SLD7_T_0.400_270": {
+    "dimensions": [
+      1738,
+      756
+    ],
+    "generation_time": 0.04009890556335449,
+    "memory_consumption": 5255712,
+    "local_minima_count": 984,
+    "file_size": 5255840
+  },
+  "SLD8_T_0.150_000": {
+    "dimensions": [
+      878,
+      523
+    ],
+    "generation_time": 0.01349329948425293,
+    "memory_consumption": 1836776,
+    "local_minima_count": 846,
+    "file_size": 1836904
+  },
+  "SLD8_T_0.150_090": {
+    "dimensions": [
+      887,
+      514
+    ],
+    "generation_time": 0.012346506118774414,
+    "memory_consumption": 1823672,
+    "local_minima_count": 616,
+    "file_size": 1823800
+  },
+  "SLD8_T_0.150_180": {
+    "dimensions": [
+      878,
+      523
+    ],
+    "generation_time": 0.012000560760498047,
+    "memory_consumption": 1836776,
+    "local_minima_count": 593,
+    "file_size": 1836904
+  },
+  "SLD8_T_0.150_270": {
+    "dimensions": [
+      887,
+      514
+    ],
+    "generation_time": 0.01151895523071289,
+    "memory_consumption": 1823672,
+    "local_minima_count": 917,
+    "file_size": 1823800
+  },
+  "SLD8_T_0.178_000": {
+    "dimensions": [
+      873,
+      520
+    ],
+    "generation_time": 0.011544227600097656,
+    "memory_consumption": 1815840,
+    "local_minima_count": 559,
+    "file_size": 1815968
+  },
+  "SLD8_T_0.178_090": {
+    "dimensions": [
+      884,
+      509
+    ],
+    "generation_time": 0.011513233184814453,
+    "memory_consumption": 1799824,
+    "local_minima_count": 734,
+    "file_size": 1799952
+  },
+  "SLD8_T_0.178_180": {
+    "dimensions": [
+      873,
+      520
+    ],
+    "generation_time": 0.0110931396484375,
+    "memory_consumption": 1815840,
+    "local_minima_count": 534,
+    "file_size": 1815968
+  },
+  "SLD8_T_0.178_270": {
+    "dimensions": [
+      884,
+      509
+    ],
+    "generation_time": 0.01206827163696289,
+    "memory_consumption": 1799824,
+    "local_minima_count": 869,
+    "file_size": 1799952
+  },
+  "SLD8_T_0.206_000": {
+    "dimensions": [
+      869,
+      517
+    ],
+    "generation_time": 0.013509273529052734,
+    "memory_consumption": 1797092,
+    "local_minima_count": 645,
+    "file_size": 1797220
+  },
+  "SLD8_T_0.206_090": {
+    "dimensions": [
+      881,
+      505
+    ],
+    "generation_time": 0.01267385482788086,
+    "memory_consumption": 1779620,
+    "local_minima_count": 454,
+    "file_size": 1779748
+  },
+  "SLD8_T_0.206_180": {
+    "dimensions": [
+      869,
+      517
+    ],
+    "generation_time": 0.013603448867797852,
+    "memory_consumption": 1797092,
+    "local_minima_count": 481,
+    "file_size": 1797220
+  },
+  "SLD8_T_0.206_270": {
+    "dimensions": [
+      881,
+      505
+    ],
+    "generation_time": 0.012068986892700195,
+    "memory_consumption": 1779620,
+    "local_minima_count": 693,
+    "file_size": 1779748
+  },
+  "SLD8_T_0.233_000": {
+    "dimensions": [
+      864,
+      514
+    ],
+    "generation_time": 0.013000726699829102,
+    "memory_consumption": 1776384,
+    "local_minima_count": 538,
+    "file_size": 1776512
+  },
+  "SLD8_T_0.233_090": {
+    "dimensions": [
+      878,
+      500
+    ],
+    "generation_time": 0.011890411376953125,
+    "memory_consumption": 1756000,
+    "local_minima_count": 401,
+    "file_size": 1756128
+  },
+  "SLD8_T_0.233_180": {
+    "dimensions": [
+      864,
+      514
+    ],
+    "generation_time": 0.01345205307006836,
+    "memory_consumption": 1776384,
+    "local_minima_count": 429,
+    "file_size": 1776512
+  },
+  "SLD8_T_0.233_270": {
+    "dimensions": [
+      878,
+      500
+    ],
+    "generation_time": 0.011882781982421875,
+    "memory_consumption": 1756000,
+    "local_minima_count": 503,
+    "file_size": 1756128
+  },
+  "SLD8_T_0.261_000": {
+    "dimensions": [
+      860,
+      511
+    ],
+    "generation_time": 0.013749122619628906,
+    "memory_consumption": 1757840,
+    "local_minima_count": 384,
+    "file_size": 1757968
+  },
+  "SLD8_T_0.261_090": {
+    "dimensions": [
+      875,
+      496
+    ],
+    "generation_time": 0.011530399322509766,
+    "memory_consumption": 1736000,
+    "local_minima_count": 349,
+    "file_size": 1736128
+  },
+  "SLD8_T_0.261_180": {
+    "dimensions": [
+      860,
+      511
+    ],
+    "generation_time": 0.014129400253295898,
+    "memory_consumption": 1757840,
+    "local_minima_count": 366,
+    "file_size": 1757968
+  },
+  "SLD8_T_0.261_270": {
+    "dimensions": [
+      875,
+      496
+    ],
+    "generation_time": 0.012030601501464844,
+    "memory_consumption": 1736000,
+    "local_minima_count": 340,
+    "file_size": 1736128
+  },
+  "SLD8_T_0.289_000": {
+    "dimensions": [
+      855,
+      508
+    ],
+    "generation_time": 0.013648033142089844,
+    "memory_consumption": 1737360,
+    "local_minima_count": 354,
+    "file_size": 1737488
+  },
+  "SLD8_T_0.289_090": {
+    "dimensions": [
+      872,
+      491
+    ],
+    "generation_time": 0.012978553771972656,
+    "memory_consumption": 1712608,
+    "local_minima_count": 297,
+    "file_size": 1712736
+  },
+  "SLD8_T_0.289_180": {
+    "dimensions": [
+      855,
+      508
+    ],
+    "generation_time": 0.01373744010925293,
+    "memory_consumption": 1737360,
+    "local_minima_count": 335,
+    "file_size": 1737488
+  },
+  "SLD8_T_0.289_270": {
+    "dimensions": [
+      872,
+      491
+    ],
+    "generation_time": 0.012604951858520508,
+    "memory_consumption": 1712608,
+    "local_minima_count": 390,
+    "file_size": 1712736
+  },
+  "SLD8_T_0.317_000": {
+    "dimensions": [
+      851,
+      505
+    ],
+    "generation_time": 0.011625289916992188,
+    "memory_consumption": 1719020,
+    "local_minima_count": 279,
+    "file_size": 1719148
+  },
+  "SLD8_T_0.317_090": {
+    "dimensions": [
+      869,
+      487
+    ],
+    "generation_time": 0.014252901077270508,
+    "memory_consumption": 1692812,
+    "local_minima_count": 279,
+    "file_size": 1692940
+  },
+  "SLD8_T_0.317_180": {
+    "dimensions": [
+      851,
+      505
+    ],
+    "generation_time": 0.011489629745483398,
+    "memory_consumption": 1719020,
+    "local_minima_count": 294,
+    "file_size": 1719148
+  },
+  "SLD8_T_0.317_270": {
+    "dimensions": [
+      869,
+      487
+    ],
+    "generation_time": 0.01450657844543457,
+    "memory_consumption": 1692812,
+    "local_minima_count": 287,
+    "file_size": 1692940
+  },
+  "SLD8_T_0.344_000": {
+    "dimensions": [
+      847,
+      503
+    ],
+    "generation_time": 0.012082815170288086,
+    "memory_consumption": 1704164,
+    "local_minima_count": 245,
+    "file_size": 1704292
+  },
+  "SLD8_T_0.344_090": {
+    "dimensions": [
+      867,
+      483
+    ],
+    "generation_time": 0.015297174453735352,
+    "memory_consumption": 1675044,
+    "local_minima_count": 255,
+    "file_size": 1675172
+  },
+  "SLD8_T_0.344_180": {
+    "dimensions": [
+      847,
+      503
+    ],
+    "generation_time": 0.011976242065429688,
+    "memory_consumption": 1704164,
+    "local_minima_count": 258,
+    "file_size": 1704292
+  },
+  "SLD8_T_0.344_270": {
+    "dimensions": [
+      867,
+      483
+    ],
+    "generation_time": 0.01615428924560547,
+    "memory_consumption": 1675044,
+    "local_minima_count": 271,
+    "file_size": 1675172
+  },
+  "SLD8_T_0.372_000": {
+    "dimensions": [
+      842,
+      500
+    ],
+    "generation_time": 0.011884212493896484,
+    "memory_consumption": 1684000,
+    "local_minima_count": 226,
+    "file_size": 1684128
+  },
+  "SLD8_T_0.372_090": {
+    "dimensions": [
+      864,
+      478
+    ],
+    "generation_time": 0.014332771301269531,
+    "memory_consumption": 1651968,
+    "local_minima_count": 229,
+    "file_size": 1652096
+  },
+  "SLD8_T_0.372_180": {
+    "dimensions": [
+      842,
+      500
+    ],
+    "generation_time": 0.011740446090698242,
+    "memory_consumption": 1684000,
+    "local_minima_count": 233,
+    "file_size": 1684128
+  },
+  "SLD8_T_0.372_270": {
+    "dimensions": [
+      864,
+      478
+    ],
+    "generation_time": 0.014728307723999023,
+    "memory_consumption": 1651968,
+    "local_minima_count": 226,
+    "file_size": 1652096
+  },
+  "SLD8_T_0.400_000": {
+    "dimensions": [
+      838,
+      497
+    ],
+    "generation_time": 0.014000415802001953,
+    "memory_consumption": 1665944,
+    "local_minima_count": 209,
+    "file_size": 1666072
+  },
+  "SLD8_T_0.400_090": {
+    "dimensions": [
+      861,
+      474
+    ],
+    "generation_time": 0.014295339584350586,
+    "memory_consumption": 1632456,
+    "local_minima_count": 205,
+    "file_size": 1632584
+  },
+  "SLD8_T_0.400_180": {
+    "dimensions": [
+      838,
+      497
+    ],
+    "generation_time": 0.013915538787841797,
+    "memory_consumption": 1665944,
+    "local_minima_count": 201,
+    "file_size": 1666072
+  },
+  "SLD8_T_0.400_270": {
+    "dimensions": [
+      861,
+      474
+    ],
+    "generation_time": 0.014322996139526367,
+    "memory_consumption": 1632456,
+    "local_minima_count": 253,
+    "file_size": 1632584
+  },
+  "SLD9_T_0.150_000": {
+    "dimensions": [
+      1677,
+      535
+    ],
+    "generation_time": 0.023194551467895508,
+    "memory_consumption": 3588780,
+    "local_minima_count": 296,
+    "file_size": 3588908
+  },
+  "SLD9_T_0.150_090": {
+    "dimensions": [
+      1686,
+      526
+    ],
+    "generation_time": 0.023358583450317383,
+    "memory_consumption": 3547344,
+    "local_minima_count": 243,
+    "file_size": 3547472
+  },
+  "SLD9_T_0.150_180": {
+    "dimensions": [
+      1677,
+      535
+    ],
+    "generation_time": 0.024657726287841797,
+    "memory_consumption": 3588780,
+    "local_minima_count": 297,
+    "file_size": 3588908
+  },
+  "SLD9_T_0.150_270": {
+    "dimensions": [
+      1686,
+      526
+    ],
+    "generation_time": 0.02567577362060547,
+    "memory_consumption": 3547344,
+    "local_minima_count": 237,
+    "file_size": 3547472
+  },
+  "SLD9_T_0.178_000": {
+    "dimensions": [
+      1672,
+      532
+    ],
+    "generation_time": 0.02332472801208496,
+    "memory_consumption": 3558016,
+    "local_minima_count": 266,
+    "file_size": 3558144
+  },
+  "SLD9_T_0.178_090": {
+    "dimensions": [
+      1683,
+      521
+    ],
+    "generation_time": 0.02411675453186035,
+    "memory_consumption": 3507372,
+    "local_minima_count": 220,
+    "file_size": 3507500
+  },
+  "SLD9_T_0.178_180": {
+    "dimensions": [
+      1672,
+      532
+    ],
+    "generation_time": 0.023802757263183594,
+    "memory_consumption": 3558016,
+    "local_minima_count": 260,
+    "file_size": 3558144
+  },
+  "SLD9_T_0.178_270": {
+    "dimensions": [
+      1683,
+      521
+    ],
+    "generation_time": 0.025139331817626953,
+    "memory_consumption": 3507372,
+    "local_minima_count": 192,
+    "file_size": 3507500
+  },
+  "SLD9_T_0.206_000": {
+    "dimensions": [
+      1668,
+      529
+    ],
+    "generation_time": 0.024499893188476562,
+    "memory_consumption": 3529488,
+    "local_minima_count": 228,
+    "file_size": 3529616
+  },
+  "SLD9_T_0.206_090": {
+    "dimensions": [
+      1680,
+      517
+    ],
+    "generation_time": 0.023763656616210938,
+    "memory_consumption": 3474240,
+    "local_minima_count": 199,
+    "file_size": 3474368
+  },
+  "SLD9_T_0.206_180": {
+    "dimensions": [
+      1668,
+      529
+    ],
+    "generation_time": 0.027167558670043945,
+    "memory_consumption": 3529488,
+    "local_minima_count": 224,
+    "file_size": 3529616
+  },
+  "SLD9_T_0.206_270": {
+    "dimensions": [
+      1680,
+      517
+    ],
+    "generation_time": 0.030920982360839844,
+    "memory_consumption": 3474240,
+    "local_minima_count": 173,
+    "file_size": 3474368
+  },
+  "SLD9_T_0.233_000": {
+    "dimensions": [
+      1663,
+      526
+    ],
+    "generation_time": 0.026325225830078125,
+    "memory_consumption": 3498952,
+    "local_minima_count": 200,
+    "file_size": 3499080
+  },
+  "SLD9_T_0.233_090": {
+    "dimensions": [
+      1677,
+      512
+    ],
+    "generation_time": 0.025017976760864258,
+    "memory_consumption": 3434496,
+    "local_minima_count": 169,
+    "file_size": 3434624
+  },
+  "SLD9_T_0.233_180": {
+    "dimensions": [
+      1663,
+      526
+    ],
+    "generation_time": 0.0249481201171875,
+    "memory_consumption": 3498952,
+    "local_minima_count": 214,
+    "file_size": 3499080
+  },
+  "SLD9_T_0.233_270": {
+    "dimensions": [
+      1677,
+      512
+    ],
+    "generation_time": 0.023957252502441406,
+    "memory_consumption": 3434496,
+    "local_minima_count": 144,
+    "file_size": 3434624
+  },
+  "SLD9_T_0.261_000": {
+    "dimensions": [
+      1659,
+      523
+    ],
+    "generation_time": 0.023341655731201172,
+    "memory_consumption": 3470628,
+    "local_minima_count": 182,
+    "file_size": 3470756
+  },
+  "SLD9_T_0.261_090": {
+    "dimensions": [
+      1674,
+      508
+    ],
+    "generation_time": 0.023612499237060547,
+    "memory_consumption": 3401568,
+    "local_minima_count": 142,
+    "file_size": 3401696
+  },
+  "SLD9_T_0.261_180": {
+    "dimensions": [
+      1659,
+      523
+    ],
+    "generation_time": 0.025114059448242188,
+    "memory_consumption": 3470628,
+    "local_minima_count": 149,
+    "file_size": 3470756
+  },
+  "SLD9_T_0.261_270": {
+    "dimensions": [
+      1674,
+      508
+    ],
+    "generation_time": 0.024697303771972656,
+    "memory_consumption": 3401568,
+    "local_minima_count": 143,
+    "file_size": 3401696
+  },
+  "SLD9_T_0.289_000": {
+    "dimensions": [
+      1654,
+      520
+    ],
+    "generation_time": 0.02382063865661621,
+    "memory_consumption": 3440320,
+    "local_minima_count": 173,
+    "file_size": 3440448
+  },
+  "SLD9_T_0.289_090": {
+    "dimensions": [
+      1671,
+      503
+    ],
+    "generation_time": 0.02691650390625,
+    "memory_consumption": 3362052,
+    "local_minima_count": 134,
+    "file_size": 3362180
+  },
+  "SLD9_T_0.289_180": {
+    "dimensions": [
+      1654,
+      520
+    ],
+    "generation_time": 0.02404189109802246,
+    "memory_consumption": 3440320,
+    "local_minima_count": 147,
+    "file_size": 3440448
+  },
+  "SLD9_T_0.289_270": {
+    "dimensions": [
+      1671,
+      503
+    ],
+    "generation_time": 0.025295495986938477,
+    "memory_consumption": 3362052,
+    "local_minima_count": 129,
+    "file_size": 3362180
+  },
+  "SLD9_T_0.317_000": {
+    "dimensions": [
+      1650,
+      517
+    ],
+    "generation_time": 0.024143218994140625,
+    "memory_consumption": 3412200,
+    "local_minima_count": 121,
+    "file_size": 3412328
+  },
+  "SLD9_T_0.317_090": {
+    "dimensions": [
+      1668,
+      499
+    ],
+    "generation_time": 0.025090932846069336,
+    "memory_consumption": 3329328,
+    "local_minima_count": 121,
+    "file_size": 3329456
+  },
+  "SLD9_T_0.317_180": {
+    "dimensions": [
+      1650,
+      517
+    ],
+    "generation_time": 0.025142192840576172,
+    "memory_consumption": 3412200,
+    "local_minima_count": 124,
+    "file_size": 3412328
+  },
+  "SLD9_T_0.317_270": {
+    "dimensions": [
+      1668,
+      499
+    ],
+    "generation_time": 0.026606321334838867,
+    "memory_consumption": 3329328,
+    "local_minima_count": 121,
+    "file_size": 3329456
+  },
+  "SLD9_T_0.344_000": {
+    "dimensions": [
+      1646,
+      515
+    ],
+    "generation_time": 0.022727012634277344,
+    "memory_consumption": 3390760,
+    "local_minima_count": 96,
+    "file_size": 3390888
+  },
+  "SLD9_T_0.344_090": {
+    "dimensions": [
+      1666,
+      495
+    ],
+    "generation_time": 0.028144121170043945,
+    "memory_consumption": 3298680,
+    "local_minima_count": 116,
+    "file_size": 3298808
+  },
+  "SLD9_T_0.344_180": {
+    "dimensions": [
+      1646,
+      515
+    ],
+    "generation_time": 0.024799823760986328,
+    "memory_consumption": 3390760,
+    "local_minima_count": 96,
+    "file_size": 3390888
+  },
+  "SLD9_T_0.344_270": {
+    "dimensions": [
+      1666,
+      495
+    ],
+    "generation_time": 0.027838468551635742,
+    "memory_consumption": 3298680,
+    "local_minima_count": 107,
+    "file_size": 3298808
+  },
+  "SLD9_T_0.372_000": {
+    "dimensions": [
+      1641,
+      512
+    ],
+    "generation_time": 0.023175954818725586,
+    "memory_consumption": 3360768,
+    "local_minima_count": 85,
+    "file_size": 3360896
+  },
+  "SLD9_T_0.372_090": {
+    "dimensions": [
+      1663,
+      490
+    ],
+    "generation_time": 0.025141239166259766,
+    "memory_consumption": 3259480,
+    "local_minima_count": 98,
+    "file_size": 3259608
+  },
+  "SLD9_T_0.372_180": {
+    "dimensions": [
+      1641,
+      512
+    ],
+    "generation_time": 0.024649858474731445,
+    "memory_consumption": 3360768,
+    "local_minima_count": 78,
+    "file_size": 3360896
+  },
+  "SLD9_T_0.372_270": {
+    "dimensions": [
+      1663,
+      490
+    ],
+    "generation_time": 0.025661706924438477,
+    "memory_consumption": 3259480,
+    "local_minima_count": 62,
+    "file_size": 3259608
+  },
+  "SLD9_T_0.400_000": {
+    "dimensions": [
+      1637,
+      509
+    ],
+    "generation_time": 0.02320384979248047,
+    "memory_consumption": 3332932,
+    "local_minima_count": 75,
+    "file_size": 3333060
+  },
+  "SLD9_T_0.400_090": {
+    "dimensions": [
+      1660,
+      486
+    ],
+    "generation_time": 0.024135112762451172,
+    "memory_consumption": 3227040,
+    "local_minima_count": 97,
+    "file_size": 3227168
+  },
+  "SLD9_T_0.400_180": {
+    "dimensions": [
+      1637,
+      509
+    ],
+    "generation_time": 0.022629499435424805,
+    "memory_consumption": 3332932,
+    "local_minima_count": 73,
+    "file_size": 3333060
+  },
+  "SLD9_T_0.400_270": {
+    "dimensions": [
+      1660,
+      486
+    ],
+    "generation_time": 0.024285316467285156,
+    "memory_consumption": 3227040,
+    "local_minima_count": 53,
+    "file_size": 3227168
+  }
+}

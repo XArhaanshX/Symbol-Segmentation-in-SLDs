@@ -1,0 +1,19 @@
+# Preprocessing Configuration
+# All parameters are evidence-based, derived from Phase 1 experiments
+
+pipeline:
+  save_intermediate: true
+  
+denoise:
+  strategy: "median"
+  kernel_size: 3
+  
+thresholding:
+  strategy: "otsu"
+  # Otsu requires no manual parameters
+  
+edge_detection:
+  strategy: "canny"
+  auto_threshold: true
+  auto_sigma: 0.33
+  # If auto_threshold was false, we would specify lower/upper here

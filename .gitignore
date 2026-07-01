@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Large artifacts that will break GitHub
+*.npy
+*.tiff
+outputs/tabular/score_maps/
+outputs/visual/diagnostics/distance_transforms/
+
+# Depending on SLD sizes, you might want to ignore raw images too, but I'll leave them for now.

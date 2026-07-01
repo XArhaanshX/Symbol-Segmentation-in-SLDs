@@ -1,0 +1,6 @@
+scale_min: 0.15
+scale_max: 0.40
+num_scales: 10
+scale_spacing_strategy: "linear"
+rotations: [0, 90, 180, 270]
+generation_method: "D3"

@@ -1,0 +1,18 @@
+# Stage 5 Structural Verification Configuration
+
+# Candidate Budget Strategy
+candidate_budget_strategy: PER_SLD_TOP_N
+verification_candidate_limit: 1000
+
+# Feature Weights
+component_weight: 0.10
+contour_weight: 0.10
+geometry_weight: 0.20
+density_weight: 0.10
+occupancy_weight: 0.10
+topology_weight: 0.10
+similarity_weight: 0.30
+
+# Combined Score Weights
+verification_weight: 0.60
+coverage_area_weight: 0.40
