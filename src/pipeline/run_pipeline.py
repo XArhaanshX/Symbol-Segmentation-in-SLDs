@@ -12,8 +12,8 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "outputs")
 REPORTS_DIR = os.path.join(BASE_DIR, "reports")
 VIS_DIR = os.path.join(REPORTS_DIR, "visual_validation")
 
-MR_SYMBOL_PATH = os.path.join(DATA_DIR, "Symbol", "MR_Symbol.png")
-SLD_PATHS = sorted(glob.glob(os.path.join(DATA_DIR, "SLDs", "SLD*.png")))
+MR_SYMBOL_PATH = os.path.join(DATA_DIR, "raw", "templates", "MR_Symbol.png")
+SLD_PATHS = sorted(glob.glob(os.path.join(DATA_DIR, "raw", "slds", "SLD*.png")))
 
 VALIDATION_TARGETS = ["MR_Symbol", "SLD1", "SLD4", "SLD11"]
 

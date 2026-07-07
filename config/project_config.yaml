@@ -1,0 +1,90 @@
+# ==============================================================================
+# Symbol Segmentor — Centralized Project Configuration
+# ==============================================================================
+# All configurable parameters live here. No hardcoded paths exist elsewhere.
+# Paths are relative to the repository root.
+# ==============================================================================
+
+# --- Dataset Paths ---
+paths:
+  raw_slds: "data/raw/slds"
+  raw_templates: "data/raw/templates"
+  mr_symbol: "data/raw/templates/MR_Symbol.png"
+  metadata: "data/metadata"
+  outputs: "outputs"
+  reports: "reports"
+  logs: "logs"
+
+# --- Stage 1: Preprocessing ---
+pipeline:
+  save_intermediate: true
+  validation_targets:
+    - "MR_Symbol"
+    - "SLD1"
+    - "SLD4"
+    - "SLD11"
+
+denoise:
+  strategy: "median"
+  kernel_size: 3
+
+thresholding:
+  strategy: "otsu"
+
+edge_detection:
+  strategy: "canny"
+  auto_threshold: true
+  auto_sigma: 0.33
+
+# --- Stage 2: Template Bank ---
+template_bank:
+  scale_min: 0.15
+  scale_max: 0.40
+  num_scales: 10
+  scale_spacing_strategy: "linear"
+  rotations: [0, 90, 180, 270]
+  generation_method: "D3"
+
+# --- Stage 3: Chamfer Matching ---
+chamfer_matching:
+  local_minima_kernel_size: 15
+  candidate_extraction_method: "local_minima"
+  score_map_storage_format: "npy"
+
+# --- Stage 5: Structural Verification ---
+verification:
+  candidate_budget_strategy: "PER_SLD_TOP_N"
+  verification_candidate_limit: 1000
+  component_weight: 0.10
+  contour_weight: 0.10
+  geometry_weight: 0.20
+  density_weight: 0.10
+  occupancy_weight: 0.10
+  topology_weight: 0.10
+  similarity_weight: 0.30
+  verification_weight: 0.60
+  coverage_area_weight: 0.40
+
+# --- Benchmarking ---
+benchmark:
+  enabled: true
+  bootstrap_resamples: 1000
+  random_seed: 42
+
+# --- Visualization ---
+visualization:
+  enabled: true
+  target_slds:
+    - "SLD1"
+    - "SLD4"
+    - "SLD11"
+
+# --- Logging ---
+logging:
+  console_level: "WARNING"
+  file_level: "DEBUG"
+
+# --- Execution ---
+execution:
+  mirror_latest: true
+  deterministic_seed: 42

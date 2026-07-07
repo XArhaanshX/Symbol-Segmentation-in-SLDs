@@ -17,4 +17,16 @@ env/
 outputs/tabular/score_maps/
 outputs/visual/diagnostics/distance_transforms/
 
+# Run outputs (large, generated per execution)
+outputs/runs/
+outputs/latest/
+reports/runs/
+reports/latest/
+demo_outputs/
+
+# Logs
+logs/
+
 # Depending on SLD sizes, you might want to ignore raw images too, but I'll leave them for now.
+
+demo_run.py

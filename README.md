@@ -1,154 +1,423 @@
-# Circuit Symbol Localization
+# Symbol Segmentor
 
-A research framework for deterministically locating specific circuit symbols (Current Transformers/MRs) in complex, highly-dense industrial Single Line Diagrams (SLDs) using zero training data.
+**Automated Circuit Symbol Localization in Single Line Diagrams**
+
+A professional research framework for detecting and localizing electrical circuit symbols (MR — Manual Reset devices) in engineering Single Line Diagrams (SLDs) using multi-scale Chamfer matching, structural verification cascades, and PCA-based feature analysis.
+
+---
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Research Motivation](#research-motivation)
+- [System Architecture](#system-architecture)
+- [Directory Structure](#directory-structure)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Running the Complete Pipeline](#running-the-complete-pipeline)
+- [Running Individual Components](#running-individual-components)
+- [Configuration](#configuration)
+- [Input Dataset Format](#input-dataset-format)
+- [Expected Outputs](#expected-outputs)
+- [Benchmark Suite](#benchmark-suite)
+- [Troubleshooting](#troubleshooting)
+- [Developer Guide](#developer-guide)
+- [Extending the Framework](#extending-the-framework)
+- [Frequently Asked Questions](#frequently-asked-questions)
+- [License](#license)
+- [Credits](#credits)
+
+---
 
 ## Project Overview
 
-This repository contains the complete research codebase, analysis reports, and artifact generation pipeline for the Circuit Symbol Localization project. The system is designed to localize symbols using only a single query template, overcoming the severe limitations of standard deep learning approaches which require massive annotated datasets.
+The Symbol Segmentor implements a complete, deterministic, multi-stage pipeline for localizing handwritten and CAD-generated circuit symbols in industrial Single Line Diagrams. The pipeline operates without deep learning or GPU requirements, using classical computer vision techniques that guarantee reproducible results across executions.
 
-**Status: Experimental / Not Production Ready.** The pipeline currently successfully localizes symbols at scales $\ge0.20$ but struggles with severe ranking inversions for small-scale symbols ($\le0.15$) due to extreme topological density and edge matching ambiguity.
+### Pipeline Stages
 
-## Motivation & Research Objectives
+| Stage | Name | Description |
+|-------|------|-------------|
+| 1 | **Preprocessing** | Grayscale conversion, median denoising, Otsu binarization, Canny edge extraction |
+| 2 | **Template Bank** | Multi-scale (10 scales), multi-rotation (4 orientations) template generation using Method D3 |
+| 3 | **Chamfer Matching** | Distance transform computation, sliding-window Chamfer score maps, local minima candidate extraction |
+| 4 | **Coverage Rescoring** | Edge coverage computation at 0-3px tolerances, normalized score generation (Scale, Area, Density) |
+| 5 | **Structural Verification** | 24-metric structural feature extraction, weighted verification scoring, combined ranking |
+| 6 | **Benchmarking** | Unified evaluation suite with dual-metric localization, retrieval analysis, bootstrap stability |
+| 7 | **Visualization** | Validation grids, candidate overlay panels, response field visualizations |
 
-Industrial electrical engineering relies on complex schematic diagrams where critical components are embedded in dense networks of intersecting wires and text annotations. 
-- **The Data Constraint**: There is zero annotated training data available.
-- **The Scale Problem**: The target symbol appears at scales ranging from $0.09\times$ to $0.40\times$ the reference template size.
-- **The Topological Problem**: Symbols are structurally embedded in bus conductors, making simple connected-component isolation mathematically impossible.
+---
 
-**Objective**: Develop a deterministic, CPU-only, explainable computer vision pipeline that can achieve $\ge0.90$ recall and $\ge0.85$ precision across 10 highly variable real-world SLDs using a single $161\times103$px template image.
+## Research Motivation
 
-## Repository Structure
+Power system Single Line Diagrams contain standardized circuit symbols (breakers, transformers, disconnect switches) that must be precisely located for automated topology extraction. Traditional approaches using YOLO or connected component analysis fail on these diagrams because:
 
-The repository has been fully refactored from a chronological development log into a modular research framework.
+1. **Symbol-to-background similarity**: Circuit symbols share structural elements (lines, corners) with busbars and conductors
+2. **Scale variability**: Symbols appear at different scales across different diagrams
+3. **Sparse training data**: Industrial SLDs are proprietary, limiting supervised learning approaches
 
-*   **`src/`**: The core production localization pipeline.
-*   **`data/`**: Datasets (raw SLDs, templates) and extracted intermediate features.
-*   **`exploration/`**: Isolated research code (e.g., structural discriminator discovery, verification cascades) and historical stage scripts.
-*   **`reports/`**: Topic-based analysis reports synthesizing findings from all experiments.
-*   **`outputs/`**: Generated visual diagnostics (overlays, galleries, score maps) and tabular rankings.
-*   **`docs/`**: Master documentation and monographs.
-*   **`config/`**: YAML configuration definitions for all pipeline stages.
+This framework addresses these challenges through a template-matching approach with multi-scale pyramids, structural verification cascades, and coverage-based rescoring — all operating deterministically without training data.
 
-For a complete explanation of every directory, see [docs/REPOSITORY_STRUCTURE.md](docs/REPOSITORY_STRUCTURE.md).
+---
 
-## Pipeline Architecture
+## System Architecture
 
-The pipeline consists of the following core stages:
+```
+Input SLD Images (PNG)
+        |
+   [Stage 1] Preprocessing
+        |--- Grayscale + Denoise + Binarize + Edge Extract
+        |
+   [Stage 2] Template Bank Generation
+        |--- Method D3: Coordinate Scaling + Subpixel Rasterization
+        |--- 10 scales x 4 rotations = 40 template variants
+        |
+   [Stage 3] Chamfer Matching Engine
+        |--- Distance Transform (L2) on SLD edge maps
+        |--- Sliding-window Chamfer score computation
+        |--- Local minima candidate extraction (15x15 kernel)
+        |
+   [Stage 4] Coverage Rescoring
+        |--- Edge coverage at 0/1/2/3px tolerances
+        |--- Normalized scores: Scale, Area, Density weighting
+        |
+   [Stage 5] Structural Verification
+        |--- 24 structural features per candidate
+        |--- Component, contour, geometry, density, topology analysis
+        |--- Weighted verification + combined scoring
+        |
+   [Stage 6] Unified Benchmark Suite
+        |--- Localization metrics (Precision, Recall, F1)
+        |--- Ranking metrics (MRR, Recall@K)
+        |--- Bootstrap stability (N=1000)
+        |--- Pipeline leaderboard
+        |
+   [Stage 7] Visualization
+        |--- Validation grids
+        |--- Candidate overlay panels
+        |
+   Output: Ranked candidates, reports, visualizations
+```
 
-1.  **Preprocessing**: Otsu binarization and Canny edge detection.
-2.  **Template Bank**: Generation of a multi-scale, multi-orientation template bank using subpixel coordinate-scaled anti-aliased rasterization (Method D3).
-3.  **Candidate Generation**: Fast dense Chamfer matching via distance transforms to propose candidate locations.
-4.  **Rescoring**: Normalizing raw Chamfer scores using Coverage $\times$ Area metrics to counteract small-template bias.
-5.  **Structural Verification**: Extracting 25 topological features (Stroke Count, Euler Number, etc.) for high-confidence discrimination.
+---
 
-For a detailed walkthrough, see [docs/PIPELINE_OVERVIEW.md](docs/PIPELINE_OVERVIEW.md).
+## Directory Structure
 
-## Installation & Dependencies
+```
+Symbol Segmentor/
+├── install.py                     # Automated environment setup
+├── run.py                         # Central pipeline entry point
+├── requirements.txt               # Python dependencies
+│
+├── config/
+│   ├── project_config.yaml        # Master configuration
+│   ├── preprocessing.yaml         # Stage 1 parameters
+│   ├── template_bank.yaml         # Stage 2 parameters
+│   ├── chamfer_matching.yaml      # Stage 3 parameters
+│   └── verification.yaml          # Stage 5 parameters
+│
+├── data/
+│   ├── raw/
+│   │   ├── slds/                  # Input SLD images (SLD1.png, SLD2.png, ...)
+│   │   └── templates/             # MR Symbol template (MR_Symbol.png)
+│   └── metadata/
+│       └── dataset_stats.json     # Dataset statistics
+│
+├── src/
+│   ├── framework/                 # Execution framework
+│   │   ├── config_manager.py      # Centralized configuration
+│   │   ├── validator.py           # Repository validation
+│   │   ├── orchestrator.py        # Pipeline orchestrator
+│   │   ├── logger.py              # Structured logging
+│   │   ├── progress.py            # Console progress display
+│   │   ├── output_manager.py      # Timestamped output management
+│   │   ├── error_handler.py       # User-friendly error handling
+│   │   └── reproducibility.py     # Execution recording
+│   ├── stages/                    # Pipeline stage wrappers
+│   ├── preprocessing/             # Image processing modules
+│   ├── candidate_generation/      # Edge detection
+│   ├── template_bank/             # Template pyramid generation
+│   ├── template_matching/         # Chamfer matching engine
+│   ├── verification/              # Structural verification
+│   ├── scoring/                   # Combined ranking
+│   ├── benchmarking/              # Unified benchmark suite
+│   ├── visualization/             # Visual output generation
+│   └── diagnostics/               # Diagnostic tools
+│
+├── outputs/                       # Pipeline outputs (timestamped)
+│   ├── runs/YYYY-MM-DD_HHMMSS/   # Per-run outputs
+│   └── latest/                    # Mirror of latest run
+│
+├── reports/                       # Generated reports (timestamped)
+│   ├── runs/YYYY-MM-DD_HHMMSS/   # Per-run reports
+│   ├── latest/                    # Mirror of latest run
+│   └── system/                    # Validation & reproducibility reports
+│
+├── logs/                          # Execution logs
+│   └── run_YYYYMMDD_HHMMSS.log
+│
+├── docs/                          # Developer documentation
+└── tests/                         # Test suite
+```
+
+---
+
+## Installation
+
+### Prerequisites
+
+- **Python 3.9+** (tested with 3.10, 3.11, 3.12, 3.14)
+- **Windows 10/11** (also works on Linux/macOS)
+- No administrator privileges required
+- No GPU required (CPU-only execution)
+
+### Setup (2 minutes)
 
 ```bash
 # Clone the repository
-git clone https://github.com/organization/symbol-segmentor.git
-cd symbol-segmentor
+git clone https://github.com/XArhaanshX/Symbol-Segmentation-in-SLDs.git
+cd Symbol-Segmentation-in-SLDs
 
-# Create virtual environment
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-
-# Install requirements
-pip install -r requirements.txt
+# Run automated installer
+python install.py
 ```
 
-*Note: The project heavily relies on `opencv-python`, `numpy`, `scipy`, `scikit-image`, and `pandas`.*
+The installer will:
+- Detect your Python version, OS, and available RAM
+- Install all dependencies from `requirements.txt`
+- Verify all imports succeed
+- Create required directories
+- Verify write permissions
+- Check dataset availability
 
-## Running the Pipeline
+---
 
-To run the end-to-end production pipeline on the provided SLDs:
+## Quick Start
 
 ```bash
-python src/pipeline/run_pipeline.py
+# 1. Install (one-time)
+python install.py
+
+# 2. Run the complete pipeline
+python run.py
 ```
 
-This script orchestrates the full sequence, writing intermediate files to `data/intermediate/` and final visual outputs to `outputs/visual/`.
+That's it. All outputs will appear in `outputs/runs/<timestamp>/` and `reports/runs/<timestamp>/`.
 
-### Running Individual Modules
+---
 
-Individual pipeline stages can be validated independently:
+## Running the Complete Pipeline
 
 ```bash
-# Validate template bank generation
-python src/template_bank/template_validation.py
-
-# Run distance transform diagnostic
-python src/diagnostics/distance_transform_validation.py
+python run.py
 ```
 
-## Running Experiments
+This executes all stages in dependency order:
+1. Input Validation
+2. Preprocessing
+3. Template Bank Generation
+4. Chamfer Matching
+5. Coverage Rescoring
+6. Structural Verification
+7. Benchmarking
+8. Visualization
 
-Research experiments are safely isolated in the `exploration/` directory.
+Progress is displayed as:
+```
+============================================================
+  Symbol Segmentor Pipeline
+============================================================
+
+  [1/7] Preprocessing  ... done (3.5s)
+  [2/7] Template Bank  ... done (12.1s)
+  [3/7] Chamfer Matching  ... done (45.2s)
+  ...
+  [7/7] Visualization  ... done (1.2s)
+
+------------------------------------------------------------
+  Completed in 2 min 14 sec
+  Outputs  : outputs/runs/2026-07-07_121643
+  Reports  : reports/runs/2026-07-07_121643
+  Log      : logs/run_2026-07-07_121643.log
+------------------------------------------------------------
+```
+
+---
+
+## Running Individual Components
 
 ```bash
-# Run structural discriminator feature analysis
-python exploration/structural_discriminator_research/scripts/structural_discovery.py
+# Run only preprocessing
+python run.py --pipeline preprocessing
+
+# Run only benchmarking
+python run.py --benchmark
+
+# Run only visualization
+python run.py --visualize
+
+# Use a custom configuration
+python run.py --config config/custom.yaml
+
+# Use an external dataset
+python run.py --dataset /path/to/sld_images/
+
+# Show all options
+python run.py --help
 ```
 
-For full reproduction instructions of all historical experiments, refer to [docs/EXPERIMENT_REPRODUCTION.md](docs/EXPERIMENT_REPRODUCTION.md).
+---
 
-## Using a New SLD Dataset
+## Configuration
 
-The framework is designed to be adaptable to new datasets. To ingest new electrical diagrams or a new query template, refer to the step-by-step guide in [docs/DATASET_PREPARATION.md](docs/DATASET_PREPARATION.md).
+All parameters live in `config/project_config.yaml`. Key sections:
 
-### Expected Folder Structure for New Datasets
-```text
-data/
-├── raw/
-│   ├── slds/
-│   │   ├── NEW_SLD1.png
-│   │   └── ...
-│   └── templates/
-│       └── NEW_SYMBOL.png
-```
+| Section | Parameters |
+|---------|-----------|
+| `paths` | Dataset locations, output directories |
+| `denoise` | Strategy (median), kernel size |
+| `thresholding` | Strategy (Otsu) |
+| `edge_detection` | Strategy (Canny), auto-threshold sigma |
+| `template_bank` | Scale range, number of scales, rotations, generation method |
+| `chamfer_matching` | Local minima kernel size, extraction method |
+| `verification` | Budget strategy, feature weights, combined score weights |
+| `benchmark` | Bootstrap resamples, random seed |
+| `execution` | Mirror latest, deterministic seed |
 
-## Output Descriptions
+See `docs/CONFIGURATION_REFERENCE.md` for detailed parameter documentation.
 
-The pipeline generates two primary classes of outputs:
+---
 
-1.  **Visual (`outputs/visual/`)**:
-    *   `overlays/`: Bounding boxes drawn over original SLDs indicating detections.
-    *   `galleries/`: Cropped patches of top-ranked candidates for visual audits.
-    *   `diagnostics/`: Heatmaps of Chamfer score fields and distance transforms.
-2.  **Tabular (`outputs/tabular/`)**:
-    *   `rankings/`: CSV files containing ranked lists of candidates per SLD with all score components.
-    *   `metrics/`: JSON files tracking recall, median rank, and hit rates.
+## Input Dataset Format
 
-## Benchmarking Workflow
+Place your SLD images in `data/raw/slds/`:
+- **Format**: PNG (supports RGBA transparency)
+- **Naming**: `SLD1.png`, `SLD2.png`, etc.
+- **Resolution**: Any resolution supported
 
-To objectively evaluate pipeline performance modifications without risking regression:
+Place the template symbol in `data/raw/templates/`:
+- **File**: `MR_Symbol.png` — the reference circuit symbol to locate
+- **Format**: PNG with transparent background recommended
 
-```bash
-python src/benchmarking/unified_pipeline_benchmark.py
-```
-This read-only suite enforces strict immutability and generates a deterministic pipeline leaderboard.
+---
 
-## Reproducing the Research
+## Expected Outputs
 
-The original research path — including discoveries regarding connected-component failure, template generation dilution, and the separability-vs-ranking paradox — is fully documented and reproducible. See [docs/EXPERIMENT_REPRODUCTION.md](docs/EXPERIMENT_REPRODUCTION.md).
+Each pipeline run generates:
 
-## Extending the Framework
+| Directory | Contents |
+|-----------|----------|
+| `outputs/runs/<ts>/template/` | Preprocessed template (gray, binary, edges) |
+| `outputs/runs/<ts>/diagrams/` | Per-SLD preprocessed outputs |
+| `outputs/runs/<ts>/template_bank/` | Multi-scale template variants + manifest |
+| `outputs/runs/<ts>/candidates/` | Raw, ranked, rescored, verified candidate CSVs |
+| `outputs/runs/<ts>/distance_transforms/` | SLD distance transform maps |
+| `reports/runs/<ts>/visual_validation/` | Validation grids |
+| `reports/runs/<ts>/benchmark/` | Benchmark reports and leaderboard |
+| `reports/system/reproducibility_report.md` | Full execution environment record |
+| `logs/run_<ts>.log` | Detailed execution log |
 
-Future engineers looking to extend this framework should focus on:
-1.  **Discrete Structural Gating**: Replacing continuous score multipliers with hard pass/fail gates based on topological features.
-2.  **PCA Subspace Verification**: Implementing the original PRD design for semantic manifold disambiguation.
+---
 
-*WARNING: Do not attempt Connected Component extraction or continuous structural score integration. These paths have been definitively disproven.*
+## Benchmark Suite
+
+The unified benchmark suite evaluates all pipeline variants automatically:
+
+- **Localization Metrics**: Precision, Recall, F1 (center-distance and IoU matching)
+- **Ranking Metrics**: MRR, Mean/Median Rank, Recall@10/20/50/100/500
+- **Signal Enrichment**: Candidate reduction %, MR density gain
+- **Statistical Stability**: Bootstrap resampling (N=1000, 95% CI)
+- **Failure Mode Analysis**: Duplicate, text, busbar, conductor, empty, noise classification
+- **Pipeline Leaderboard**: Deterministic ranking by `Recall@100 > MRR > Precision`
+
+---
 
 ## Troubleshooting
 
-- **Empty Templates Generated**: Ensure you are using `Method D3` configuration in `config/template_bank.yaml`. Pixel-domain downsampling (Method A) destroys edges at scale <0.20.
-- **Top Detections are all Text**: This is the known small-template bias. Ensure the `coverage_rescoring` module is running.
-- **Path/Import Errors**: Ensure you are running scripts from the repository root directory to maintain correct relative path resolution.
+| Problem | Solution |
+|---------|----------|
+| `ModuleNotFoundError: No module named 'src'` | Run from the repository root: `python run.py` |
+| `FileNotFoundError: config/project_config.yaml` | Run `python install.py` first |
+| `No SLD images found` | Place `.png` files in `data/raw/slds/` |
+| `Permission denied` on outputs | Ensure the repository is not on a read-only share |
+| Pipeline fails silently | Check `logs/run_*.log` and `reports/system/error_report.md` |
 
-## Citation & Credits
+---
 
-Research conducted by **Arhaansh Jhingan**.
+## Developer Guide
 
-When referencing this project or its findings regarding topological constraint matching in line drawings, please cite the Master Monograph located in `docs/monograph/`.
+### Adding a New Pipeline Stage
+
+1. Create `src/stages/s0N_new_stage.py`
+2. Implement the `PipelineStage` interface:
+   ```python
+   from src.framework.orchestrator import PipelineStage
+
+   class NewStage(PipelineStage):
+       def name(self): return "new_stage"
+       def description(self): return "What this stage does"
+       def dependencies(self): return ["prerequisite_stage"]
+       def outputs(self): return ["list of outputs"]
+       def run(self, context): ...
+   ```
+3. Register in `src/framework/orchestrator.py` → `get_all_stages()`
+
+### Module Interface
+
+Every stage wrapper receives a `context` dictionary:
+```python
+context = {
+    "project_root": str,     # Absolute path to repo root
+    "config": dict,          # Loaded project_config.yaml
+    "outputs_dir": str,      # Timestamped output directory
+    "reports_dir": str,      # Timestamped reports directory
+    "run_timestamp": str,    # YYYY-MM-DD_HHMMSS
+    "log_path": str,         # Path to log file
+}
+```
+
+See `docs/MODULE_DEVELOPMENT.md` for detailed guidance.
+
+---
+
+## Extending the Framework
+
+The framework is designed for extensibility:
+
+- **New templates**: Add to `data/raw/templates/` and reference in config
+- **New SLDs**: Drop PNG files in `data/raw/slds/`
+- **Custom configs**: Create a YAML and run with `--config`
+- **New stages**: Implement `PipelineStage` interface
+- **New metrics**: Extend `src/benchmarking/unified_pipeline_benchmark.py`
+
+---
+
+## Frequently Asked Questions
+
+**Q: Do I need a GPU?**
+No. The entire pipeline runs on CPU. No CUDA or GPU installation required.
+
+**Q: Will running the pipeline overwrite my previous results?**
+No. Every run creates a new timestamped directory. Historical results are never modified.
+
+**Q: Can I use my own SLD diagrams?**
+Yes. Place PNG images in `data/raw/slds/` or use `--dataset /path/to/images/`.
+
+**Q: How do I reproduce a specific run?**
+Check `reports/system/reproducibility_report.md` for the exact git commit, configuration, and environment used.
+
+**Q: What Python versions are supported?**
+Python 3.9 through 3.14 have been tested. 3.10+ is recommended.
+
+---
+
+## License
+
+This project is developed for research purposes.
+
+---
+
+## Credits
+
+**Research conducted by Arhaansh Jhingan**
+
+Pipeline design, implementation, and experimental evaluation for automated circuit symbol localization in industrial Single Line Diagrams.
