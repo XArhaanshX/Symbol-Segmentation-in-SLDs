@@ -194,8 +194,8 @@ def main():
     t_end = time.time()
     elapsed = t_end - t_start
     
-    # Phase 3G: Response Field Visualizations (SLD1, SLD4, SLD11)
-    target_slds = ["SLD1", "SLD4", "SLD11"]
+    # Phase 3G: Response Field Visualizations for all processed SLDs
+    target_slds = slds
     rep_template_scale = 0.150
     rep_template_rot = 0
     rep_filename_template = f"T_{rep_template_scale:.3f}_{rep_template_rot:03d}"

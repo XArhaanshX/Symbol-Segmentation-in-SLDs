@@ -409,7 +409,7 @@ def main():
     for c in verified_candidates:
         cmb_by_sld[c["sld_name"]].append(c)
         
-    for sld in ["SLD1", "SLD4", "SLD11"]:
+    for sld in cmb_by_sld.keys():
         diag_path = os.path.join(DIAGRAMS_DIR, sld, "edges.png")
         if not os.path.exists(diag_path):
             continue

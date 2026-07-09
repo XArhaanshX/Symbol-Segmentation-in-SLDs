@@ -4,14 +4,14 @@
 
 | Field | Value |
 |---|---|
-| Timestamp | 2026-07-07_122718 |
-| Git Commit | `1d5da7787fe3e59e5d2da3348afd526db5d8c54e` |
+| Timestamp | 2026-07-09_193349 |
+| Git Commit | `ed2216e95c3e7a38e1668784b3ed4a75c761b06d` |
 | Git Branch | `main` |
 | Python Version | `3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]` |
 | Operating System | Windows 11 (AMD64) |
-| Runtime | 0m 38s |
+| Runtime | 0m 40s |
 | Random Seed | `42` (deterministic) |
-| Log File | `logs\run_2026-07-07_122718.log` |
+| Log File | `logs\run_2026-07-09_193349.log` |
 
 ## Configuration Snapshot
 
@@ -238,7 +238,7 @@ visualization:
 | yarl | 1.23.0 |
 | zopfli | 0.4.3 |
 
-## Generated Outputs (554 files)
+## Generated Outputs (610 files)
 
 - `candidates\ranked_by_combined_score.csv`
 - `candidates\ranked_by_coverage_area.csv`
@@ -248,49 +248,49 @@ visualization:
 - `candidates\raw_candidates.csv`
 - `candidates\rescored_candidates.csv`
 - `candidates\verified_candidates.csv`
+- `chamfer_visualizations\SLD10_top_10_overlay.png`
+- `chamfer_visualizations\SLD10_top_25_overlay.png`
+- `chamfer_visualizations\SLD10_top_50_overlay.png`
+- `chamfer_visualizations\SLD10_worst_25_overlay.png`
 - `chamfer_visualizations\SLD11_top_10_overlay.png`
 - `chamfer_visualizations\SLD11_top_25_overlay.png`
 - `chamfer_visualizations\SLD11_top_50_overlay.png`
 - `chamfer_visualizations\SLD11_worst_25_overlay.png`
+- `chamfer_visualizations\SLD12_top_10_overlay.png`
+- `chamfer_visualizations\SLD12_top_25_overlay.png`
+- `chamfer_visualizations\SLD12_top_50_overlay.png`
+- `chamfer_visualizations\SLD12_worst_25_overlay.png`
 - `chamfer_visualizations\SLD1_top_10_overlay.png`
 - `chamfer_visualizations\SLD1_top_25_overlay.png`
 - `chamfer_visualizations\SLD1_top_50_overlay.png`
 - `chamfer_visualizations\SLD1_worst_25_overlay.png`
+- `chamfer_visualizations\SLD2_top_10_overlay.png`
+- `chamfer_visualizations\SLD2_top_25_overlay.png`
+- `chamfer_visualizations\SLD2_top_50_overlay.png`
+- `chamfer_visualizations\SLD2_worst_25_overlay.png`
+- `chamfer_visualizations\SLD3_top_10_overlay.png`
+- `chamfer_visualizations\SLD3_top_25_overlay.png`
+- `chamfer_visualizations\SLD3_top_50_overlay.png`
+- `chamfer_visualizations\SLD3_worst_25_overlay.png`
 - `chamfer_visualizations\SLD4_top_10_overlay.png`
 - `chamfer_visualizations\SLD4_top_25_overlay.png`
 - `chamfer_visualizations\SLD4_top_50_overlay.png`
 - `chamfer_visualizations\SLD4_worst_25_overlay.png`
+- `chamfer_visualizations\SLD7_top_10_overlay.png`
+- `chamfer_visualizations\SLD7_top_25_overlay.png`
+- `chamfer_visualizations\SLD7_top_50_overlay.png`
+- `chamfer_visualizations\SLD7_worst_25_overlay.png`
+- `chamfer_visualizations\SLD8_top_10_overlay.png`
+- `chamfer_visualizations\SLD8_top_25_overlay.png`
+- `chamfer_visualizations\SLD8_top_50_overlay.png`
+- `chamfer_visualizations\SLD8_worst_25_overlay.png`
+- `chamfer_visualizations\SLD9_top_10_overlay.png`
+- `chamfer_visualizations\SLD9_top_25_overlay.png`
+- `chamfer_visualizations\SLD9_top_50_overlay.png`
+- `chamfer_visualizations\SLD9_worst_25_overlay.png`
 - `diagrams\SLD10\binary.png`
 - `diagrams\SLD10\edges.png`
-- `diagrams\SLD10\gray.png`
-- `diagrams\SLD11\binary.png`
-- `diagrams\SLD11\edges.png`
-- `diagrams\SLD11\gray.png`
-- `diagrams\SLD12\binary.png`
-- `diagrams\SLD12\edges.png`
-- `diagrams\SLD12\gray.png`
-- `diagrams\SLD1\binary.png`
-- `diagrams\SLD1\edges.png`
-- `diagrams\SLD1\gray.png`
-- `diagrams\SLD2\binary.png`
-- `diagrams\SLD2\edges.png`
-- `diagrams\SLD2\gray.png`
-- `diagrams\SLD3\binary.png`
-- `diagrams\SLD3\edges.png`
-- `diagrams\SLD3\gray.png`
-- `diagrams\SLD4\binary.png`
-- `diagrams\SLD4\edges.png`
-- `diagrams\SLD4\gray.png`
-- `diagrams\SLD7\binary.png`
-- `diagrams\SLD7\edges.png`
-- `diagrams\SLD7\gray.png`
-- `diagrams\SLD8\binary.png`
-- `diagrams\SLD8\edges.png`
-- `diagrams\SLD8\gray.png`
-- `diagrams\SLD9\binary.png`
-- `diagrams\SLD9\edges.png`
-- `diagrams\SLD9\gray.png`
-- ... and 504 more
+- ... and 560 more
 
 ## Generated Reports (17 files)
 
