@@ -8,7 +8,7 @@ import numpy as np
 import yaml
 import matplotlib.pyplot as plt
 
-BASE_DIR = r"c:\Users\arhaa\OneDrive\Symbol Segmentor"
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 REPORTS_DIR = os.path.join(BASE_DIR, "reports")
 TEMPLATE_BANK_DIR = os.path.join(BASE_DIR, "outputs", "template_bank")
 ROTATIONS_DIR = os.path.join(TEMPLATE_BANK_DIR, "rotations")

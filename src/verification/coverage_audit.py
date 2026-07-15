@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 # Define Directories
-BASE_DIR = r"c:\Users\arhaa\OneDrive\Symbol Segmentor"
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 REPORTS_DIR = os.path.join(BASE_DIR, "reports")
 CANDIDATES_DIR = os.path.join(BASE_DIR, "outputs", "candidates")
 DT_DIR = os.path.join(BASE_DIR, "outputs", "distance_transforms")
@@ -620,8 +620,7 @@ def write_distribution_analysis(group_metrics, cat_a, cat_b, cat_c):
     plt.savefig(plot_path, dpi=150)
     plt.close()
     
-    # Copy to artifacts directory
-    shutil_copy(plot_path, os.path.join(r"C:\Users\arhaa\.gemini\antigravity\brain\773f5f67-cde3-4d67-b06f-a2fa3d7b3335", "coverage_distributions.png"))
+
 
     content = f"""# Coverage Distribution Analysis
 
@@ -706,8 +705,7 @@ def write_coverage_chamfer_relationship(metrics_dataset, cat_a, cat_b, cat_c):
     plt.savefig(plot_path, dpi=150)
     plt.close()
     
-    # Copy to artifacts directory
-    shutil_copy(plot_path, os.path.join(r"C:\Users\arhaa\.gemini\antigravity\brain\773f5f67-cde3-4d67-b06f-a2fa3d7b3335", "coverage_vs_chamfer.png"))
+
     
     # Compute correlation coefficients
     correlations = {}
@@ -1055,7 +1053,7 @@ def generate_visual_forensics(audit_dataset, dt_cache, templates_db):
         cv2.imwrite(out_path, vis_resized)
         
         # Copy to artifacts directory
-        shutil_copy(out_path, os.path.join(r"C:\Users\arhaa\.gemini\antigravity\brain\773f5f67-cde3-4d67-b06f-a2fa3d7b3335", out_name))
+
         print(f"Saved visual overlay to {out_path}")
 
 def generate_candidate_galleries(metrics_dataset, dt_cache, templates_db):

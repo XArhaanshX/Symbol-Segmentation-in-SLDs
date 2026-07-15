@@ -4,7 +4,7 @@ import numpy as np
 import datetime
 import yaml
 
-BASE_DIR = r"c:\Users\arhaa\OneDrive\Symbol Segmentor"
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 DT_DIR = os.path.join(BASE_DIR, "outputs", "distance_transforms")
 CONFIG_PATH = os.path.join(BASE_DIR, "config", "chamfer.yaml")
 REPORT_PATH = os.path.join(BASE_DIR, "reports", "distance_transform_validation.md")

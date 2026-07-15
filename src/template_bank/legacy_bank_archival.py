@@ -1,7 +1,7 @@
 import os
 import shutil
 
-BASE_DIR = r"c:\Users\arhaa\OneDrive\Symbol Segmentor"
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 ARCHIVE_DIR = os.path.join(BASE_DIR, "outputs", "archive")
 
 def copy_if_exists(src, dest):

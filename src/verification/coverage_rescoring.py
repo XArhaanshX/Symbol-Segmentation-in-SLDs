@@ -8,7 +8,7 @@ import cv2
 from datetime import datetime
 from collections import defaultdict
 
-BASE_DIR = r"c:\Users\arhaa\OneDrive\Symbol Segmentor"
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 REPORTS_DIR = os.path.join(BASE_DIR, "reports")
 OUTPUTS_DIR = os.path.join(BASE_DIR, "outputs")
 CANDIDATES_DIR = os.path.join(OUTPUTS_DIR, "candidates")

@@ -4,7 +4,7 @@ import json
 import datetime
 import yaml
 
-BASE_DIR = r"c:\Users\arhaa\OneDrive\Symbol Segmentor"
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 SCORE_MAPS_DIR = os.path.join(BASE_DIR, "outputs", "score_maps")
 CONFIG_PATH = os.path.join(BASE_DIR, "config", "chamfer.yaml")
 REPORT_PATH = os.path.join(BASE_DIR, "reports", "chamfer_score_map_validation.md")

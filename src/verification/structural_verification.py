@@ -7,7 +7,7 @@ import numpy as np
 from datetime import datetime
 from collections import defaultdict
 
-BASE_DIR = r"c:\Users\arhaa\OneDrive\Symbol Segmentor"
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 CONFIG_PATH = os.path.join(BASE_DIR, "config", "stage5_verification.yaml")
 REPORTS_DIR = os.path.join(BASE_DIR, "reports")
 OUTPUTS_DIR = os.path.join(BASE_DIR, "outputs")
